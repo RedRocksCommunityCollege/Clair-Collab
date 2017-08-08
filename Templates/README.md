@@ -1,4 +1,4 @@
-#templates
+# Templates
 __A location for storing all templates.__
 
-Be sure to include the template's source in a comment at the top of your code.
+If the template isn't original, be sure to include it's source in a comment at the top of your code.
