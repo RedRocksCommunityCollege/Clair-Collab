@@ -1,11 +1,12 @@
-#Used for pulling paragraph data from the web using POST
 
 import urllib.request
 import urllib.parse
 import re
 import numpy as np
 
-'''
+
+#Used for pulling paragraph data from the web using POST
+
 url = 'http://pythonprogramming.net'
 #URL that we are scraping for data
 values = {'s':'basic','submit':'Search'}
@@ -35,35 +36,31 @@ for eachP in paragraphs:
     print(eachP)
 #prints everything between the <p>'s and </p>'s
 
-'''
+
 #Used for pulling paragraph data from the web using GET
 
 url = urllib.request.urlopen('http://www.rrcc.edu/idea-institute')
-
-#print(x)
+#opens the source code for the selected URL
 
 HTML = url.read()
 #print(HTML)
 
-#x = urllib.parse.encode('utf-8')
-
-#req = urllib.request.Request(url, x)
-#request URL and data we want to pass
-#resp = urllib.request.urlopen(req)
-#visiting URL
-#respData = resp.read()
-#reads data from URL
 paragraphs = re.findall(r'<p>(.*?)</p>',str(HTML))
-Non = re.findall(r'<a href=(.*?)</a>',str(HTML))
-
 #finds the paragraph data in the HTML
 #<p>paragraphs in HTML live here</p>
+
+#This script still needs a way to remove the data surrounded by <a and </a>
+
+#Below is one possible method
+'''
+Non = re.findall(r'<a href=(.*?)</a>',str(HTML))
+
 print(Non)
 np.shape(Non)
 print(paragraphs)
 np.shape(paragraphs)
 paragraphs[0]
-
+'''
 
 for eachP in paragraphs:
     print(eachP)
