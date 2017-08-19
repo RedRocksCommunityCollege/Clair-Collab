@@ -1,6 +1,9 @@
 
 import csv
-with open('../Data/Test_Data//RECS2009/recs2009_public.csv') as csvfile:
+import numpy as np
+
+
+with open("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
 
     totrooms = []
@@ -15,3 +18,37 @@ with open('../Data/Test_Data//RECS2009/recs2009_public.csv') as csvfile:
 
     print(totrooms)
     print(playsta1)
+
+#Check the types
+type(totrooms)
+type(playsta1)
+
+#Convert to a numpy array
+roomarray = np.delete(np.asarray(totrooms),0,0) #np.delete will remove the name since it is the first entry.
+plarray = np.delete(np.asarray(playsta1),0,0)
+
+print(roomarray)
+roomarray[0] #Pull the first element of the arr
+np.shape(roomarray)
+
+print(plarray)
+playsta1[0]
+np.shape(plarray)
+
+
+room = np.array([])
+
+for i in range(0,np.shape(roomarray)[0]):
+    d = int(roomarray[i])
+    room = np.append(room,d)
+
+np.sum(room)
+np.sum(room)/np.shape(roomarray)[0]
+
+games = np.array([])
+for i in range(0,np.shape(plarray)[0]):
+    d = int(plarray[i])
+    games = np.append(games,d)
+
+np.sum(games)
+np.sum(games)/np.shape(plarray)[0]
