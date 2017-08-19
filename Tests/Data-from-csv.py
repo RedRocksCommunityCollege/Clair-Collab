@@ -3,7 +3,8 @@ import csv
 import numpy as np
 
 
-with open("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
+#with open("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
+with open("../Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
 
     totrooms = []
