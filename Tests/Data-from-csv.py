@@ -1,10 +1,8 @@
-
 import csv
 import numpy as np
 
-
-#with open("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
-with open("../Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
+#with open("../Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
+with open("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
 
     totrooms = []
@@ -49,7 +47,13 @@ np.sum(room)/np.shape(roomarray)[0]
 games = np.array([])
 for i in range(0,np.shape(plarray)[0]):
     d = int(plarray[i])
-    games = np.append(games,d)
+    if d == -2:
+        pass
+    else:
+        games = np.append(games,d)
+
+#Number of -2 in the playstation list
+np.shape(plarray)[0] - np.shape(games)[0]
 
 np.sum(games)
-np.sum(games)/np.shape(plarray)[0]
+np.sum(games)/np.shape(games)[0]
