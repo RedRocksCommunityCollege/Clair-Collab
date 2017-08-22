@@ -1,9 +1,13 @@
-
 import csv
 import numpy as np
 
+<<<<<<< HEAD
 #Reads .csv, establishes comma as delimiter
 with open("/Users/K8nn8/Google Drive/RRCC DataLab/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
+=======
+#with open("../Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
+with open("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv") as csvfile:
+>>>>>>> 927059c6b7eb0721ba726764a24794a5569cf477
     readCSV = csv.reader(csvfile, delimiter=',')
 
     totrooms = []
@@ -53,9 +57,24 @@ np.sum(rooms) #total number of rooms in all households
 np.sum(rooms)/np.shape(roomarray)[0] #avg. number of rooms per household
 
 games = np.array([])
+<<<<<<< HEAD
 for i in range(0,np.shape(psarray)[0]):
     d = int(psarray[i])
     games = np.append(games,d)
 
 np.sum(games) #total number households with a gaming console connected to their primary TV
 (np.sum(games)/np.shape(psarray)[0])*100 #percentage of households with a gaming console on their primary TV
+=======
+for i in range(0,np.shape(plarray)[0]):
+    d = int(plarray[i])
+    if d == -2:
+        pass
+    else:
+        games = np.append(games,d)
+
+#Number of -2 in the playstation list
+np.shape(plarray)[0] - np.shape(games)[0]
+
+np.sum(games)
+np.sum(games)/np.shape(games)[0]
+>>>>>>> 927059c6b7eb0721ba726764a24794a5569cf477
