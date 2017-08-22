@@ -1,4 +1,3 @@
-
 import csv
 import numpy as np
 
@@ -17,7 +16,7 @@ with open("/Users/K8nn8/Google Drive/RRCC DataLab/Clair-Global-Collab/Data/Test_
         totrooms.append(room_total)
         playsta1.append(playstation)
 
-    #Prints selected columns    
+    #Prints selected columns
     print(totrooms)
     print(playsta1) #0=no, 1=yes, -2=N/A
 
@@ -29,7 +28,27 @@ type(playsta1)
 indices = [i for i, x in enumerate(playsta1) if x == "-2"] #indexes all occurences of "-2"
 print(indices)
 
+for i in indices:
+    print(totrooms[i])
 
+
+#########
+
+np.shape(totrooms)[0]
+
+Houses = np.array([])
+
+for i in range(1, np.shape(totrooms)[0]):
+    House = np.array([totrooms[i],playsta1[i]]S)
+    #print(House)
+    Houses = np.append(Houses,np.array([House]))
+
+#np.array([totrooms[1],playsta1[1]])
+
+print(Houses)
+Houses[6]
+
+#######
 
 #Convert to a numpy array
 roomarray = np.delete(np.asarray(totrooms),0,0) #np.delete will remove the name since it is the first entry.
