@@ -8,6 +8,8 @@ Game1 = df.PLAYSTA1
 Game2 = df.PLAYSTA2
 Game3 = df.PLAYSTA3
 
+Rooms.mean()
+
 Houses = np.array([[0,0,0,0]]) # Make an empty array. We need [0,0] for the correct shape.
 GamerHouses = np.array([[0,0,0,0]])
 # Collect up all the tuples with rooms as the first element and mainTV as the second.
@@ -25,3 +27,10 @@ for i in range(0, np.shape(Houses)[0]):
 GamerHouses = np.delete(GamerHouses,0,0) # Remove the extra one from the front of the list.
 
 print(GamerHouses)
+
+Sum = 0
+for i in range(0,np.shape(GamerHouses)[0]):
+    Sum = GamerHouses[i][0] + Sum
+
+Avg = Sum/np.shape(GamerHouses)[0]
+print(Avg)
