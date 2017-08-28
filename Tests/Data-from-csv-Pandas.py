@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 #Create a data frame by reading .csv in using pandas module
-df = pd.read_csv("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv")
-
+#df = pd.read_csv("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv")
+df = pd.read_csv("C:/Users/K8nn8/Google Drive/RRCC DataLab/Clair-Global-Collab/Data/Test_Data/RECS2009")
 #define variables as pandas data frames
 TOTALRooms = df.TOTROOMS
 BEDRooms = df.BEDROOMS
