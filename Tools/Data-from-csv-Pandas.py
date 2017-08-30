@@ -1,6 +1,6 @@
 '''Pandas is ideal for mathing .csv files. This code pulls a few columns from the REC2009 Data
 (see Data/Test_Data/RECS2009) and makes comparisons on household education level and the number
-of gaming consoles in the household'''
+of gaming consoles in the household. This will be useful for data mining from csv files.'''
 
 import numpy as np
 import pandas as pd
