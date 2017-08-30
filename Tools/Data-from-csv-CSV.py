@@ -1,3 +1,6 @@
+'''Uses the CSV module to import a csv then uses numpy to perform math on data.
+May be useful for basic operations involving reading and writing csv files'''
+
 import csv
 import numpy as np
 
