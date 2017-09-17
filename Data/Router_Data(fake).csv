@@ -1,3 +1,4 @@
+user_init,device_ip,arrive_time,depart_time,bandwidth_used,device_type,visited_ip,user_route
 SNJ,837.1.5.909,1:29,2:44,76Mbps,Nexus 6,216.58.194.78,2223
 VRR,500.8.0.610,1:40,2:13,09Mbps,iPhone 6,52.54.140.49,2113
 EMU,983.5.2.114,1:42,2:25,54Mbps,iPhone 6,151.101.65.140,3211
