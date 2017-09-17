@@ -9,7 +9,7 @@ import pandas as pd
 '''Adam's filepath'''
 #df = pd.read_csv("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv")
 '''Cory's filepath'''
-df = pd.read_csv("/Users/K8nn8/Google Drive/RRCC DataLab/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv")
+df = pd.read_csv("/Coding/RRCC DataLab/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv")
 
 # Define variables as pandas data frames that pull metrics from the RECS2009 csv
 TOTALRooms = df.TOTROOMS
