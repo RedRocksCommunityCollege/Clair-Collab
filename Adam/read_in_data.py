@@ -3,7 +3,9 @@ import numpy as np
 import matplotlib
 %matplotlib
 
-Data_Frame_EventA = pd.read_csv('/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/secure-devices.csv', nrows = 2390,error_bad_lines=False)
+Data_Frame_EventA = pd.read_csv('/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+Data_Frame_EventA['time'][1989]
+
 Data_Frame_EventA['X_type'].unique()
 
 traffic = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('traffic', na = False)]
