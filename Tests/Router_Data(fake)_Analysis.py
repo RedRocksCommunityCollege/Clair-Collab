@@ -20,19 +20,42 @@ DeviceType = df.device_type
 VisitedIP = df.visited_ip
 UserRoute = df.user_route
 
-# Converts lists to ndarrays
-ArriveTime = df.values
-DepartTime = df.values
+i = 0
+Difference = np.array([])
+while i in range(0,50000):
+    Difference = np.append(Difference, int(ArriveTime[i].replace('1:','')) - int(DepartTime[i].replace('2:','')))
+    i = i + 1
+
+Difference
+
+
+
+# Creates second data frame, "Time," that is a numpy array of arr/dep times
+df_Arr = pd.DataFrame(np.array(df.arrive_time))
+#df_Dep = pd.DataFrame(np.array(df[['depart_time']]))
+
+Arr = pd.to_numeric(ArriveTime)
+df_Dep = np.array(df.depart_time)
+
+type(Arr)
+print(Arr[0,1,2,3,4])
+np.shape(Arr)
+
+print(df_Arr.head())
+
+type(df_Arr)
 
 # Checks first five device types
-print(DeviceType[[0,1,2,3,4]])
+print(DeviceType.head())
 
 '''not working'''
 # Checks first five arrival times
-print(ArriveTime[[0,1,2,3,4]])
+#print(ArriveTime())
 
 type(DepartTime)
 type(ArriveTime)
+
+print(ArriveTime[1,2,3])
 
 '''not working'''
 #DeltaT = (DepartTime-ArriveTime)
