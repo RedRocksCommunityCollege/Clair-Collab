@@ -4,7 +4,39 @@ import matplotlib
 %matplotlib
 
 Data_Frame_EventA = pd.read_csv('/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
-Data_Frame_EventA['time'][1989]
+
+Data_Frame_EventA['time'][0].replace(":", "")
+
+j = 0
+TIME_SIG = np.array([])
+LOC_SIG = np.array([])
+for j in range(0,1999):
+    TIME_SIG = np.append(TIME_SIG, int(Data_Frame_EventA['time'][j].replace(":", "")))
+    LOC_SIG = np.append(LOC_SIG, Data_Frame_EventA['srccountry'][j])
+    j = j + 1
+
+print(TIME_SIG)
+Country_DF = Data_Frame_EventA[pd.notnull(Data_Frame_EventA['srccountry'])]
+
+pd.DataFrame(LOC_SIG, index = TIME_SIG)
+
+Country_DF['srccountry'].unique()
+
+
+j = 0
+country = np.array([])
+for j in range(51):
+    country = np.append(country , [Country_DF['srccountry'].unique()[j], int(Country_DF['srccountry'].str.count(str(Country_DF['srccountry'].unique()[j])).sum())])
+    j = j + 1
+
+x = country[1::2].astype(np.int)
+
+Data_Country = {'Country' : x}
+Data_Frame_Country = pd.DataFrame(Data_Country, index = country[::2])
+Data_Frame_Country
+
+Data_Frame_Country['Country'].plot.pie()
+
 
 Data_Frame_EventA['X_type'].unique()
 
