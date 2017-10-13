@@ -1,0 +1,53 @@
+{
+  "axes": [],
+  "data": [
+    {
+      "format": {
+        "feature": "world-countries",
+        "type": "topojson"
+      },
+      "name": "countries",
+      "transform": [
+        {
+          "projection": "winkel3",
+          "scale": 200,
+          "translate": [
+            480.0,
+            250.0
+          ],
+          "type": "geopath",
+          "value": "data"
+        }
+      ],
+      "url": "https://github.com/wrobstory/vincent_map_data/blob/master/world-countries.topo.json"
+    }
+  ],
+  "height": 500,
+  "legends": [],
+  "marks": [
+    {
+      "from": {
+        "data": "countries"
+      },
+      "properties": {
+        "enter": {
+          "path": {
+            "field": "path"
+          },
+          "stroke": {
+            "value": "#000000"
+          }
+        },
+        "update": {
+          "fill": {
+            "value": "steelblue"
+          }
+        }
+      },
+      "type": "path"
+    }
+  ],
+  "padding": "auto",
+  "scales": [],
+  "width": 960
+}
