@@ -3,9 +3,28 @@ import numpy as np
 import matplotlib
 %matplotlib
 
-Data_Frame_EventA = pd.read_csv('/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+def Read_File():
+    return pd.read_csv('/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
 
-Data_Frame_EventA['time'][0].replace(":", "")
+def Country_Count(Event):
+    j = 0
+    Country_DF = Event[pd.notnull(Event['srccountry'])]
+    Country_DF['srccountry'].unique()
+    country = np.array([])
+    for j in range(51):
+        country = np.append(country , [Country_DF['srccountry'].unique()[j], int(Country_DF['srccountry'].str.count(str(Country_DF['srccountry'].unique()[j])).sum())])
+        j = j + 1
+
+    return(country)
+
+def X_type_Function(element,Local_Frame):
+    return Local_Frame[Local_Frame['X_type'].str.contains(element, na = False)]
+
+Event_A = Read_File()
+Country_Count(Event_A)
+X_type_Function('traffic',Event_A)
+
+lData_Frame_EventA['time'][0].replace(":", "")
 
 j = 0
 TIME_SIG = np.array([])
@@ -20,14 +39,6 @@ Country_DF = Data_Frame_EventA[pd.notnull(Data_Frame_EventA['srccountry'])]
 
 pd.DataFrame(LOC_SIG, index = TIME_SIG)
 
-Country_DF['srccountry'].unique()
-
-
-j = 0
-country = np.array([])
-for j in range(51):
-    country = np.append(country , [Country_DF['srccountry'].unique()[j], int(Country_DF['srccountry'].str.count(str(Country_DF['srccountry'].unique()[j])).sum())])
-    j = j + 1
 
 x = country[1::2].astype(np.int)
 
@@ -40,12 +51,7 @@ Data_Frame_Country['Country'].plot.pie()
 
 Data_Frame_EventA['X_type'].unique()
 
-traffic = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('traffic', na = False)]
-event = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('event', na = False)]
-utm = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('utm', na = False)]
-X_131072 = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('131072', na = False)]
-app_ctrl_all = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('app-ctrl-all', na = False)]
-X_262144 = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('262144', na = False)]
+
 
 int(utm['app'].str.count(str(utm['app'].unique()[3])).sum())
 
