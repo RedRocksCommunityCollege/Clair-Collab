@@ -26,9 +26,20 @@ X_131072 = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('131072', 
 app_ctrl_all = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('app-ctrl-all', na = False)]
 X_262144 = Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains('262144', na = False)]
 
+def Xtype_find(type):
+    Data_Frame_EventA[Data_Frame_EventA['X_type'].str.contains(type, na = False)]
 
+print(Xtype_find('traffic'))
 
+def Xtype_all():
+    Xtype_find('traffic')
+    Xtype_find('event')
+    Xtype_find('utm')
+    Xtype_find('131072')
+    Xtype_find('app-cntrl-all')
+    Xtype_find('262144')
 
+print(Xtype_all())
 
 
 '''Maps Countries over time'''
