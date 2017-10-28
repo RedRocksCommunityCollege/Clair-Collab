@@ -7,19 +7,15 @@ import pandas as pd
 Data_Frame_EventA = pd.read_csv('C:\Coding\Clair-Global-Collab\Data\secure-devices.csv', nrows = 2390 , error_bad_lines=False)
 
 df_Time_Country = Data_Frame_EventA[['time', 'srccountry']]
-
-print((df_Time_Country).head())
-
 df_Time_Country = df_Time_Country.dropna(axis=0)
 df_Time_Country = df_Time_Country.dropna(axis=1)
+df_Time_Country = df_Time_Country[:1996]
+df_Time_Country.columns = ['Time', 'Country', 'Index']
 
-df_Time_Country
-
-df_Time_Country['srccountry'].unique()
-country_list = df_Time_Country['srccountry'].unique()
-
+country_list = df_Time_Country['Country'].unique()
 country_dict = {key: i for i, key in enumerate(country_list)}
-print(country_dict)
 
-df_Time_Country['index'] = df_Time_Country['srccountry'].map(country_dict)
+df_Time_Country['Index'] = df_Time_Country['Country'].map(country_dict)
+df_Time_Country['Time'] = df_Time_Country['Time'].str.replace(":","").astype(str)
+
 df_Time_Country
