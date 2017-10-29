@@ -1,7 +1,10 @@
-import plotly.plotly as py
+import plotly as py
 import pandas as pd
+from plotly.graph_objs import Scatter, Layout
+py.offline.init_notebook_mode(connected=True)
 
-df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2014_world_gdp_with_codes.csv')
+
+df = pd.read_csv('/media/adam/Samsung_T5/GitHub/Clair-Global-Collab/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
 data = [ dict(
         type = 'choropleth',
@@ -21,7 +24,7 @@ data = [ dict(
             autotick = False,
             tickprefix = '$',
             title = 'GDP<br>Billions US$'),
-      ) ]
+     ) ]
 
 layout = dict(
     title = '2014 Global GDP<br>Source:\
@@ -32,9 +35,9 @@ layout = dict(
         showcoastlines = False,
         projection = dict(
             type = 'Mercator'
+                )
         )
     )
-)
 
 fig = dict( data=data, layout=layout )
-py.iplot( fig, validate=False, filename='d3-world-map' )
+py.offline.iplot( fig, validate=False, filename='d3-world-map' )
