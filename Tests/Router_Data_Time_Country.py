@@ -19,3 +19,56 @@ df_Time_Country['Index'] = df_Time_Country['Country'].map(country_dict)
 df_Time_Country['Time'] = df_Time_Country['Time'].str.replace(":","").astype(str)
 
 df_Time_Country
+
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+import plotly.plotly as py
+import plotly.tools as tls
+
+# Learn about API authentication here: https://plot.ly/python/getting-started
+# Find your api_key here: https://plot.ly/settings/api
+
+def FindCountry(country):
+    df_country = df_Time_Country['Country'].str.contains(country, na = False)
+    return(df_Time_Country[df_country])
+
+# Currently only contains countries from this event, needs be updated to include all
+Africa = 'Seychelles', 'South Africa'
+Asia = 'Japan', 'China', 'India', 'Vietnam', 'Philippines', 'Indonesia', 'Hong Kong', 'Taiwan', 'Malaysia', 'Pakistan', 'Thailand', 'United Arab Emirates', 'Oman', 'Israel'
+Europe = 'United Kingdom', 'Netherlands', 'Europe', 'Germany', 'Sweden', 'Spain', 'Norway', 'Greece', 'France', 'Czech Republic', 'Italy', 'Bulgaria', 'Poland', 'Romania', 'Croatia', 'Russian Federation'
+North_America = 'United States', 'Canada', 'Mexico'
+Oceania = ''
+Cen_South_America = 'Columbia', 'Brazil', 'Argentina', 'Chile'
+Unknown_Other = 'Reserved'
+
+def FindContinent(continent):
+    df_cont = df_Time_Country['Country'].str.contains(continent), na = False)
+    return(df_Time_Country[df_cont])
+
+FindContinent(Cen_South_America)
+
+colors = ['b', 'c', 'y', 'm', 'r', 'g', 'k', ]
+
+AF = plt.scatter(random(10), random(10), marker='o', color=colors[0]) # Africa
+AS  = plt.scatter(random(10), random(10), marker='o', color=colors[1]) # Asia
+EU  = plt.scatter(random(10), random(10), marker='o', color=colors[2]) # Europe
+NA  = plt.scatter(random(10), random(10), marker='o', color=colors[3]) # North America
+OC = plt.scatter(random(10), random(10), marker='o', color=colors[4]) # Oceania
+SA = plt.scatter(random(10), random(10), marker='o', color=colors[5]) # Souht and Central America
+UNK/OTHER = plt.scatter(random(10), random(10), marker='o', color=colors[6]) # unknown/other
+
+text = iter(['Africa', 'Asia', 'Europe', 'North America', 'Oceania', 'South/Central America', 'Unknown/Other'])
+
+
+mpl_fig = plt.gcf()
+plotly_fig = tls.mpl_to_plotly( mpl_fig )
+
+for dat in plotly_fig['data']:
+    t = text.next()
+	dat.update({'name': t, 'text':t})
+
+plotly_fig['layout']['showlegend'] = True
+py.plot(plotly_fig)
