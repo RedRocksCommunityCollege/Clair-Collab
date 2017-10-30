@@ -10,17 +10,18 @@ df_Time_Country = Data_Frame_EventA[['time', 'srccountry']]
 df_Time_Country = df_Time_Country.dropna(axis=0)
 df_Time_Country = df_Time_Country.dropna(axis=1)
 df_Time_Country = df_Time_Country[:1996]
-df_Time_Country.columns = ['Time', 'Country', 'Index']
 
-country_list = df_Time_Country['Country'].unique()
+country_list = df_Time_Country['srccountry'].unique()
 country_dict = {key: i for i, key in enumerate(country_list)}
 
-df_Time_Country['Index'] = df_Time_Country['Country'].map(country_dict)
-df_Time_Country['Time'] = df_Time_Country['Time'].str.replace(":","").astype(str)
+df_Time_Country['Index'] = df_Time_Country['srccountry'].map(country_dict)
+df_Time_Country['time'] = df_Time_Country['time'].str.replace(":","").astype(str)
+
+df_Time_Country.columns = ['Time', 'Country', 'Index']
 
 df_Time_Country
 
-
+df_Time_Country.plot(df_Time_Country['Time'] )
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -41,14 +42,23 @@ Asia = 'Japan', 'China', 'India', 'Vietnam', 'Philippines', 'Indonesia', 'Hong K
 Europe = 'United Kingdom', 'Netherlands', 'Europe', 'Germany', 'Sweden', 'Spain', 'Norway', 'Greece', 'France', 'Czech Republic', 'Italy', 'Bulgaria', 'Poland', 'Romania', 'Croatia', 'Russian Federation'
 North_America = 'United States', 'Canada', 'Mexico'
 Oceania = ''
-Cen_South_America = 'Columbia', 'Brazil', 'Argentina', 'Chile'
+Cen_South_America = ['Columbia', 'Brazil', 'Argentina', 'Chile']
 Unknown_Other = 'Reserved'
 
+int(len(Cen_South_America)-1)
+
+#i = 0
 def FindContinent(continent):
-    df_cont = df_Time_Country['Country'].str.contains(continent), na = False)
-    return(df_Time_Country[df_cont])
+    for country in continent:
+        return(continent)
+    #for i in range(0, int(len(continent))):
+    #    return(FindCountry(iter(continent[i])))
+    #    i = i + 1
+
 
 FindContinent(Cen_South_America)
+
+
 
 colors = ['b', 'c', 'y', 'm', 'r', 'g', 'k', ]
 
