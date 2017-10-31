@@ -1,4 +1,9 @@
 import pandas as pd
+import plotly as py
+from plotly.graph_objs import Scatter, Layout
+py.offline.init_notebook_mode(connected=True)
+py.tools.set_credentials_file(username='CoryK8nn8dy', api_key='••••••••••')
+py.tools.set_config_file(sharing='public')
 
 # Reads in pdf.
 # nrows = number of rows to read in
@@ -6,20 +11,62 @@ import pandas as pd
 # Prints error for each 'bad_line' ommited
 Data_Frame_EventA = pd.read_csv('C:\Coding\Clair-Global-Collab\Data\secure-devices.csv', nrows = 2390 , error_bad_lines=False)
 
+# Create Data Frame 'Time_Country', drop nan values, drop extra rows not applicable
 df_Time_Country = Data_Frame_EventA[['time', 'srccountry']]
 df_Time_Country = df_Time_Country.dropna(axis=0)
 df_Time_Country = df_Time_Country.dropna(axis=1)
 df_Time_Country = df_Time_Country[:1996]
 
+# Assign counting number to each unique country pinged
 country_list = df_Time_Country['srccountry'].unique()
 country_dict = {key: i for i, key in enumerate(country_list)}
 
+# Create third column of assigned counting numbers
 df_Time_Country['Index'] = df_Time_Country['srccountry'].map(country_dict)
 df_Time_Country['time'] = df_Time_Country['time'].str.replace(":","").astype(str)
 
+# Rename columns
 df_Time_Country.columns = ['Time', 'Country', 'Index']
 
+# Display Data Frame
 df_Time_Country
+
+
+data = [ dict(
+        type = 'choropleth',
+        locations = df_Time_Country['Time'],
+        #z = df['Index'],
+        text = df_Time_Country['Country'],
+        colorscale = [[143223,"rgb(5, 10, 172)"],[143223,"rgb(40, 60, 190)"],[143223,"rgb(70, 100, 245)"],\
+            [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[143223,"rgb(220, 220, 220)"]],
+        autocolorscale = False,
+        reversescale = False,
+        marker = dict(
+            line = dict (
+                color = 'rgb(180,180,180)',
+                width = 0.5
+            ) ),
+     ) ]
+
+layout = dict(
+    title = 'Login Country Origin',
+    geo = dict(
+        showframe = False,
+        showcoastlines = False,
+        projection = dict(
+            type = 'Mercator'
+                )
+        )
+    )
+
+fig = dict( data=data, layout=layout )
+fig
+
+py.offline.init_notebook_mode(connected=True)
+py.offline.iplot( fig, validate=False, filename='d3-world-map' )
+
+
+'''The purpose of the code below, which is currently incomplete, is to categorize the countries by continent. Then, create a scatterplot of countries(y-axis) pinged over time(x-axis) where the countries' points are color coded by continent for additional dimensionality within the graph.'''
 
 df_Time_Country.plot(df_Time_Country['Time'] )
 
