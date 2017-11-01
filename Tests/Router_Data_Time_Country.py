@@ -46,7 +46,7 @@ df_Time_Country
 data = [ dict(
         type = 'choropleth',
         locations = df_Time_Country['Code'],
-        #z = df_Time_Country['Time'],
+        z = df_Time_Country['Time'],
         text = df_Time_Country['Code'],
         colorscale = [[0,"rgb(5, 10, 172)"],[0.1,"rgb(40, 60, 190)"],[0.4,"rgb(70, 100, 245)"],\
             [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[1,"rgb(220, 220, 220)"]],
