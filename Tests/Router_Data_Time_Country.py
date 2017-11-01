@@ -5,8 +5,11 @@ py.offline.init_notebook_mode(connected=True)
 #py.tools.set_credentials_file(username='CoryK8nn8dy', api_key='••••••••••')
 #py.tools.set_config_file(sharing='public')
 
-df_Country_Codes = pd.read_csv('/Coding/Clair-Global-Collab/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
+df_Country_Code = pd.read_csv('/Coding/Clair-Global-Collab/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
+code_dict = df_Country_Code.set_index('COUNTRY')['CODE'].to_dict()
+
+print(code_dict)
 
 # Reads in pdf.
 # nrows = number of rows to read in
@@ -26,10 +29,15 @@ country_dict = {key: i for i, key in enumerate(country_list)}
 
 # Create third column of assigned counting numbers
 df_Time_Country['Index'] = df_Time_Country['srccountry'].map(country_dict)
+
+# Create fourth column of assigned country codes
+df_Time_Country['Code'] = df_Time_Country['srccountry'].map(code_dict)
+
+#Remove semicolons from timestamps
 df_Time_Country['time'] = df_Time_Country['time'].str.replace(":","").astype(str)
 
 # Rename columns
-df_Time_Country.columns = ['Time', 'Country', 'Index']
+df_Time_Country.columns = ['Time', 'Country', 'Index', 'Code']
 
 # Display Data Frame
 df_Time_Country
@@ -37,9 +45,9 @@ df_Time_Country
 #143223
 data = [ dict(
         type = 'choropleth',
-        locations = df_Time_Country['Country'],
-        z = df_Time_Country['Time'],
-        text = df_Time_Country['Country'],
+        locations = df_Time_Country['Code'],
+        #z = df_Time_Country['Time'],
+        text = df_Time_Country['Code'],
         colorscale = [[0,"rgb(5, 10, 172)"],[0.1,"rgb(40, 60, 190)"],[0.4,"rgb(70, 100, 245)"],\
             [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[1,"rgb(220, 220, 220)"]],
         autocolorscale = False,
