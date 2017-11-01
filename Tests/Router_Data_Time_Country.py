@@ -39,6 +39,8 @@ df_Time_Country['time'] = df_Time_Country['time'].str.replace(":","").astype(str
 # Rename columns
 df_Time_Country.columns = ['Time', 'Country', 'Index', 'Code']
 
+df_Time_Country.to_csv('C:/Coding/Clair-Global-Collab/Data/Time_Country.csv')
+
 # Display Data Frame
 df_Time_Country
 
