@@ -1,0 +1,1997 @@
+,Time,Country,Index
+0,143223,United States,0
+1,143223,United States,0
+2,143223,United States,0
+3,143223,United States,0
+4,143223,United States,0
+5,143223,United States,0
+6,143223,United States,0
+7,143223,United States,0
+8,143223,United States,0
+9,143223,United States,0
+10,143223,United States,0
+11,143223,United States,0
+12,143223,United States,0
+13,143223,United States,0
+14,143223,United States,0
+15,143324,United States,0
+16,143324,United States,0
+17,143324,United States,0
+18,143324,United States,0
+19,143324,United States,0
+20,143324,United States,0
+21,143324,United States,0
+22,143324,United States,0
+23,143324,United States,0
+24,143324,United States,0
+25,143345,Reserved,1
+26,143320,United Kingdom,2
+27,143320,United States,0
+28,143202,Japan,3
+29,143202,China,4
+30,143253,Mexico,5
+31,143310,United States,0
+32,143422,Reserved,1
+33,143423,Reserved,1
+34,143423,Reserved,1
+35,143424,United States,0
+36,143424,United States,0
+37,143424,United States,0
+38,143424,United States,0
+39,143424,United States,0
+40,143424,United States,0
+41,143424,United States,0
+42,143425,United States,0
+43,143424,United States,0
+44,143424,United States,0
+45,143418,Reserved,1
+46,143440,Reserved,1
+47,143442,Reserved,1
+48,143405,Reserved,1
+49,143405,Reserved,1
+50,143453,Reserved,1
+51,143440,Reserved,1
+52,143359,United States,0
+53,143359,United Kingdom,2
+54,143521,Reserved,1
+55,143521,United States,0
+56,143523,United States,0
+57,143524,United States,0
+58,143524,United States,0
+59,143524,United States,0
+60,143524,United States,0
+61,143524,United States,0
+62,143524,United States,0
+63,143524,United States,0
+64,143514,Reserved,1
+65,143533,Reserved,1
+66,143535,United States,0
+67,143528,India,6
+68,143556,Netherlands,7
+69,143557,Japan,3
+70,143559,United States,0
+71,143510,Reserved,1
+72,143551,Europe,8
+73,143552,United States,0
+74,143553,United States,0
+75,143518,United States,0
+76,143537,United States,0
+77,143621,Reserved,1
+78,143624,Reserved,1
+79,143624,United States,0
+80,143625,United States,0
+81,143625,United States,0
+82,143625,United States,0
+83,143625,United States,0
+84,143624,United States,0
+85,143625,United States,0
+86,143625,United States,0
+87,143625,United States,0
+88,143625,United States,0
+89,143625,United States,0
+90,143625,United States,0
+91,143625,United States,0
+92,143625,United States,0
+93,143625,United States,0
+94,143625,United States,0
+95,143625,United States,0
+96,143617,Reserved,1
+97,143620,Europe,8
+98,143620,Reserved,1
+99,143620,Netherlands,7
+100,143611,Germany,9
+101,143653,Reserved,1
+102,143643,United States,0
+103,143629,India,6
+104,143636,United States,0
+105,143607,United States,0
+106,143633,United Arab Emirates,10
+107,143724,United States,0
+108,143724,United States,0
+109,143724,United States,0
+110,143724,United States,0
+111,143724,United States,0
+112,143724,United States,0
+113,143724,United States,0
+114,143724,United States,0
+115,143724,United States,0
+116,143724,United States,0
+117,143724,United States,0
+118,143724,United States,0
+119,143827,India,6
+120,143827,United States,0
+121,143827,United States,0
+122,143827,United States,0
+123,143827,United States,0
+124,143827,United States,0
+125,143827,United States,0
+126,143827,United States,0
+127,143827,United States,0
+128,143827,United States,0
+129,143827,United States,0
+130,143828,United States,0
+131,143828,United States,0
+132,143738,United States,0
+133,143739,Reserved,1
+134,143739,United States,0
+135,143833,United States,0
+136,143833,China,4
+137,143703,Europe,8
+138,143704,United States,0
+139,143757,United States,0
+140,144025,United States,0
+141,144025,United States,0
+142,144025,United States,0
+143,144025,United States,0
+144,144025,United States,0
+145,144025,United States,0
+146,144025,United States,0
+147,144025,United States,0
+148,144025,United States,0
+149,144025,United States,0
+150,144025,United States,0
+151,143924,United States,0
+152,143924,United States,0
+153,143924,United States,0
+154,143924,United States,0
+155,143924,United States,0
+156,143924,United States,0
+157,143924,United States,0
+158,143924,United States,0
+159,143924,United States,0
+160,143924,United States,0
+161,143924,United States,0
+162,143924,United States,0
+163,143924,United States,0
+164,143924,Europe,8
+165,144031,China,4
+166,144035,Reserved,1
+167,143845,Reserved,1
+168,143932,Reserved,1
+169,143959,United States,0
+170,143941,Colombia,11
+171,143951,Europe,8
+172,144128,United States,0
+173,144128,United States,0
+174,144128,United States,0
+175,144128,United States,0
+176,144128,United States,0
+177,144128,United States,0
+178,144128,United States,0
+179,144128,United States,0
+180,144128,United States,0
+181,144128,United States,0
+182,144129,United States,0
+183,144128,United States,0
+184,144131,Reserved,1
+185,144148,United States,0
+186,144149,Sweden,12
+187,144151,Europe,8
+188,144037,Reserved,1
+189,144138,Reserved,1
+190,144138,United States,0
+191,144152,United States,0
+192,144153,United States,0
+193,144206,United States,0
+194,144145,Europe,8
+195,144221,United States,0
+196,144224,United States,0
+197,144224,United States,0
+198,144224,United States,0
+199,144224,United States,0
+200,144224,United States,0
+201,144224,United States,0
+202,144224,United States,0
+203,144224,United States,0
+204,144224,United States,0
+205,144224,United States,0
+206,144224,United States,0
+207,144224,United States,0
+208,144303,Reserved,1
+209,144303,United States,0
+210,144303,China,4
+211,144303,Europe,8
+212,144312,Russian Federation,13
+213,144313,Reserved,1
+214,144241,Reserved,1
+215,144246,United States,0
+216,144228,Reserved,1
+217,144253,Netherlands,7
+218,144311,Netherlands,7
+219,144234,Netherlands,7
+220,144220,Europe,8
+221,144321,United States,0
+222,144324,United States,0
+223,144324,United States,0
+224,144324,United States,0
+225,144324,United States,0
+226,144324,United States,0
+227,144324,United States,0
+228,144324,United States,0
+229,144324,United States,0
+230,144324,United States,0
+231,144324,United States,0
+232,144324,United States,0
+233,144324,United States,0
+234,144324,United States,0
+235,144324,United States,0
+236,144324,United States,0
+237,144324,United States,0
+238,144324,United States,0
+239,144324,United States,0
+240,144324,United States,0
+241,144425,United States,0
+242,144425,United States,0
+243,144426,United States,0
+244,144425,United States,0
+245,144426,United States,0
+246,144426,United States,0
+247,144426,United States,0
+248,144426,United States,0
+249,144426,United States,0
+250,144426,United States,0
+251,144426,United States,0
+252,144426,United States,0
+253,144351,United States,0
+254,144354,Reserved,1
+255,144356,Europe,8
+256,144316,Russian Federation,13
+257,144318,China,4
+258,144318,China,4
+259,144413,Vietnam,14
+260,144416,Mexico,5
+261,144343,United States,0
+262,144343,Reserved,1
+263,144334,Spain,15
+264,144525,United States,0
+265,144525,United States,0
+266,144525,United States,0
+267,144525,United States,0
+268,144525,United States,0
+269,144525,United States,0
+270,144525,United States,0
+271,144525,United States,0
+272,144525,United States,0
+273,144538,Brazil,16
+274,144540,Reserved,1
+275,144504,Russian Federation,13
+276,144505,United Kingdom,2
+277,144505,Japan,3
+278,144453,Reserved,1
+279,144456,Reserved,1
+280,144431,Reserved,1
+281,144431,Reserved,1
+282,144432,Reserved,1
+283,144442,United States,0
+284,144444,United States,0
+285,144544,United Kingdom,2
+286,144544,Japan,3
+287,144517,Germany,9
+288,144625,United States,0
+289,144624,United States,0
+290,144625,United States,0
+291,144624,United States,0
+292,144625,United States,0
+293,144624,United States,0
+294,144625,United States,0
+295,144624,United States,0
+296,144625,United States,0
+297,144625,United States,0
+298,144625,United States,0
+299,144625,United States,0
+300,144625,United States,0
+301,144625,United States,0
+302,144625,United States,0
+303,144625,United States,0
+304,144625,United States,0
+305,144625,United States,0
+306,144629,Reserved,1
+307,144630,China,4
+308,144638,Reserved,1
+309,144548,Reserved,1
+310,144549,Reserved,1
+311,144619,Reserved,1
+312,144636,United States,0
+313,144602,Brazil,16
+314,144610,United States,0
+315,144722,Europe,8
+316,144724,United States,0
+317,144724,United States,0
+318,144724,United States,0
+319,144724,United States,0
+320,144724,United States,0
+321,144724,United States,0
+322,144724,United States,0
+323,144724,United States,0
+324,144724,United States,0
+325,144724,United States,0
+326,144724,United States,0
+327,144724,United States,0
+328,144724,United States,0
+329,144724,United States,0
+330,144725,Europe,8
+331,144729,Reserved,1
+332,144730,United States,0
+333,144731,Norway,17
+334,144732,Reserved,1
+335,144732,Reserved,1
+336,144644,United States,0
+337,144659,United States,0
+338,144713,China,4
+339,144653,Croatia,18
+340,144711,United States,0
+341,144720,United States,0
+342,144652,Reserved,1
+343,144736,Reserved,1
+344,144736,Reserved,1
+345,144736,Reserved,1
+346,144736,Reserved,1
+347,144736,Mexico,5
+348,144748,Reserved,1
+349,144751,Europe,8
+350,144752,Reserved,1
+351,144802,Europe,8
+352,144804,Reserved,1
+353,144805,United States,0
+354,144744,United States,0
+355,144738,United States,0
+356,144742,Japan,3
+357,144813,United States,0
+358,144807,China,4
+359,144759,Philippines,19
+360,144752,United States,0
+361,144823,United States,0
+362,144823,United States,0
+363,144823,United States,0
+364,144823,United States,0
+365,144823,United States,0
+366,144823,United States,0
+367,144823,United States,0
+368,144823,United States,0
+369,144823,United States,0
+370,144823,United States,0
+371,144823,United States,0
+372,144823,United States,0
+373,144823,United States,0
+374,144823,United States,0
+375,144823,United States,0
+376,144825,China,4
+377,144825,United States,0
+378,144827,Reserved,1
+379,144924,United States,0
+380,144924,United States,0
+381,144924,United States,0
+382,144924,United States,0
+383,144924,United States,0
+384,144924,United States,0
+385,144924,United States,0
+386,144924,United States,0
+387,144924,United States,0
+388,144924,United States,0
+389,144924,United States,0
+390,144924,United States,0
+391,144820,Europe,8
+392,144821,United States,0
+393,144821,China,4
+394,144858,Russian Federation,13
+395,144900,Japan,3
+396,144903,Argentina,20
+397,144931,Seychelles,21
+398,144834,United States,0
+399,144936,United States,0
+400,144829,Indonesia,22
+401,145024,United States,0
+402,145023,United States,0
+403,145023,United States,0
+404,145023,United States,0
+405,145024,United States,0
+406,145023,United States,0
+407,145023,United States,0
+408,145024,United States,0
+409,145024,United States,0
+410,145024,United States,0
+411,145024,United States,0
+412,145024,United States,0
+413,145024,United States,0
+414,145024,United States,0
+415,145051,Mexico,5
+416,145018,Reserved,1
+417,145018,United States,0
+418,145034,United States,0
+419,145034,Germany,9
+420,145035,India,6
+421,144939,United States,0
+422,144939,Japan,3
+423,144940,United States,0
+424,144948,United States,0
+425,145058,United States,0
+426,144956,Europe,8
+427,145000,Reserved,1
+428,145124,United States,0
+429,145124,United States,0
+430,145124,United States,0
+431,145124,United States,0
+432,145125,United States,0
+433,145125,United States,0
+434,145125,United States,0
+435,145125,United States,0
+436,145124,United States,0
+437,145125,United States,0
+438,145124,United States,0
+439,145125,United States,0
+440,145124,United States,0
+441,145125,United States,0
+442,145124,United States,0
+443,145124,United States,0
+444,145124,United States,0
+445,145125,United States,0
+446,145133,Reserved,1
+447,145137,United States,0
+448,145158,Reserved,1
+449,145200,United States,0
+450,145207,Reserved,1
+451,145132,Reserved,1
+452,145158,United Kingdom,2
+453,145114,Greece,23
+454,145117,United States,0
+455,145110,United States,0
+456,145323,Reserved,1
+457,145323,United States,0
+458,145323,United States,0
+459,145323,United States,0
+460,145323,United States,0
+461,145323,United States,0
+462,145323,United States,0
+463,145323,United States,0
+464,145323,United States,0
+465,145323,United States,0
+466,145323,United States,0
+467,145323,United States,0
+468,145323,United States,0
+469,145323,United States,0
+470,145224,United States,0
+471,145224,United States,0
+472,145224,United States,0
+473,145224,United States,0
+474,145224,United States,0
+475,145224,United States,0
+476,145224,United States,0
+477,145224,United States,0
+478,145224,United States,0
+479,145255,United States,0
+480,145255,Reserved,1
+481,145322,Europe,8
+482,145221,Reserved,1
+483,145221,Reserved,1
+484,145259,Reserved,1
+485,145239,Seychelles,21
+486,145216,Japan,3
+487,145314,Reserved,1
+488,145413,United States,0
+489,145414,China,4
+490,145414,Philippines,19
+491,145400,Philippines,19
+492,145402,United States,0
+493,145402,Europe,8
+494,145403,United States,0
+495,145334,United Kingdom,2
+496,145408,United States,0
+497,145331,Netherlands,7
+498,145348,United States,0
+499,145409,United States,0
+500,145348,Europe,8
+501,145458,Reserved,1
+502,145459,Reserved,1
+503,145459,Reserved,1
+504,145459,Reserved,1
+505,145500,China,4
+506,145500,China,4
+507,145505,Reserved,1
+508,145508,Reserved,1
+509,145525,United States,0
+510,145525,United States,0
+511,145525,United States,0
+512,145524,United States,0
+513,145524,United States,0
+514,145525,United States,0
+515,145525,United States,0
+516,145524,United States,0
+517,145525,United States,0
+518,145525,United States,0
+519,145525,United States,0
+520,145525,United States,0
+521,145525,United States,0
+522,145525,Reserved,1
+523,145526,Reserved,1
+524,145525,Reserved,1
+525,145526,Reserved,1
+526,145525,Reserved,1
+527,145526,Reserved,1
+528,145508,Reserved,1
+529,145508,Reserved,1
+530,145509,Reserved,1
+531,145509,Reserved,1
+532,145511,Reserved,1
+533,145511,Reserved,1
+534,145513,Reserved,1
+535,145513,Reserved,1
+536,145528,Reserved,1
+537,145530,Reserved,1
+538,145530,Reserved,1
+539,145529,Reserved,1
+540,145529,Reserved,1
+541,145532,United States,0
+542,145533,United States,0
+543,145519,Reserved,1
+544,145519,United States,0
+545,145520,Reserved,1
+546,145520,Reserved,1
+547,145520,Reserved,1
+548,145520,United States,0
+549,145522,United States,0
+550,145513,Reserved,1
+551,145514,Reserved,1
+552,145514,Reserved,1
+553,145515,Reserved,1
+554,145516,Reserved,1
+555,145517,Reserved,1
+556,145424,United States,0
+557,145424,United States,0
+558,145425,United States,0
+559,145424,United States,0
+560,145425,United States,0
+561,145425,United States,0
+562,145425,United States,0
+563,145425,United States,0
+564,145425,United States,0
+565,145425,United States,0
+566,145424,United States,0
+567,145425,United States,0
+568,145425,United States,0
+569,145430,Reserved,1
+570,145600,United States,0
+571,145601,Reserved,1
+572,145602,Reserved,1
+573,145604,Reserved,1
+574,145604,Reserved,1
+575,145605,Reserved,1
+576,145604,Reserved,1
+577,145605,Reserved,1
+578,145606,Reserved,1
+579,145606,Reserved,1
+580,145606,Reserved,1
+581,145607,Reserved,1
+582,145607,Reserved,1
+583,145607,Reserved,1
+584,145607,Reserved,1
+585,145608,Reserved,1
+586,145608,Reserved,1
+587,145554,United States,0
+588,145558,Reserved,1
+589,145558,Reserved,1
+590,145543,United States,0
+591,145545,Reserved,1
+592,145547,China,4
+593,145547,United States,0
+594,145540,United States,0
+595,145540,United States,0
+596,145540,Canada,24
+597,145541,Reserved,1
+598,145609,Reserved,1
+599,145611,Reserved,1
+600,145611,China,4
+601,145535,United States,0
+602,145537,Croatia,18
+603,145538,United States,0
+604,145553,China,4
+605,145617,Reserved,1
+606,145659,Reserved,1
+607,145659,Reserved,1
+608,145659,Reserved,1
+609,145659,Reserved,1
+610,145701,Reserved,1
+611,145701,Reserved,1
+612,145702,Reserved,1
+613,145702,Reserved,1
+614,145703,Reserved,1
+615,145703,Reserved,1
+616,145703,Reserved,1
+617,145703,Reserved,1
+618,145703,Reserved,1
+619,145624,United States,0
+620,145624,United States,0
+621,145624,United States,0
+622,145624,United States,0
+623,145624,United States,0
+624,145624,United States,0
+625,145624,United States,0
+626,145624,United States,0
+627,145624,United States,0
+628,145625,United States,0
+629,145624,United States,0
+630,145624,United States,0
+631,145624,United States,0
+632,145624,United States,0
+633,145625,Reserved,1
+634,145625,Reserved,1
+635,145625,Reserved,1
+636,145625,Reserved,1
+637,145634,Reserved,1
+638,145634,United States,0
+639,145638,Reserved,1
+640,145638,Reserved,1
+641,145638,Reserved,1
+642,145650,United Kingdom,2
+643,145650,Japan,3
+644,145652,Reserved,1
+645,145652,Canada,24
+646,145640,Reserved,1
+647,145642,Reserved,1
+648,145642,Jordan,25
+649,145620,Reserved,1
+650,145621,Reserved,1
+651,145621,Reserved,1
+652,145654,Reserved,1
+653,145658,Reserved,1
+654,145630,Reserved,1
+655,145630,Reserved,1
+656,145705,Reserved,1
+657,145705,Reserved,1
+658,145705,Reserved,1
+659,145705,Reserved,1
+660,145705,Reserved,1
+661,145706,Reserved,1
+662,145707,Mexico,5
+663,145708,Reserved,1
+664,145708,Reserved,1
+665,145709,Reserved,1
+666,145709,Reserved,1
+667,145710,Reserved,1
+668,145712,Reserved,1
+669,145712,Reserved,1
+670,145713,Reserved,1
+671,145713,Reserved,1
+672,145713,Reserved,1
+673,145713,Reserved,1
+674,145713,Reserved,1
+675,145713,Reserved,1
+676,145719,Reserved,1
+677,145719,Reserved,1
+678,145719,Reserved,1
+679,145720,Reserved,1
+680,145720,Reserved,1
+681,145720,Reserved,1
+682,145720,Reserved,1
+683,145721,Reserved,1
+684,145721,Reserved,1
+685,145722,Reserved,1
+686,145721,Reserved,1
+687,145723,Reserved,1
+688,145723,Reserved,1
+689,145723,Reserved,1
+690,145723,Reserved,1
+691,145734,Reserved,1
+692,145734,Reserved,1
+693,145736,Reserved,1
+694,145737,United States,0
+695,145737,United States,0
+696,145737,United States,0
+697,145737,United States,0
+698,145737,United States,0
+699,145737,United States,0
+700,145738,United States,0
+701,145737,United States,0
+702,145738,United States,0
+703,145738,Reserved,1
+704,145738,Reserved,1
+705,145738,Reserved,1
+706,145738,Reserved,1
+707,145738,Reserved,1
+708,145738,Reserved,1
+709,145738,Reserved,1
+710,145738,Reserved,1
+711,145741,Reserved,1
+712,145741,Reserved,1
+713,145741,Reserved,1
+714,145741,Reserved,1
+715,145742,Sweden,12
+716,145725,Reserved,1
+717,145725,Reserved,1
+718,145727,Reserved,1
+719,145726,Reserved,1
+720,145727,Reserved,1
+721,145727,Reserved,1
+722,145727,Reserved,1
+723,145727,Reserved,1
+724,145728,Reserved,1
+725,145728,Netherlands,7
+726,145728,Reserved,1
+727,145729,Reserved,1
+728,145714,Reserved,1
+729,145716,Reserved,1
+730,145717,Reserved,1
+731,145717,Reserved,1
+732,145717,Reserved,1
+733,145718,Reserved,1
+734,145718,Reserved,1
+735,145718,Reserved,1
+736,145718,Reserved,1
+737,145745,Reserved,1
+738,145746,Reserved,1
+739,145747,Reserved,1
+740,145747,Reserved,1
+741,145749,Reserved,1
+742,145730,United Kingdom,2
+743,145729,United States,0
+744,145732,United States,0
+745,145733,Reserved,1
+746,145806,Reserved,1
+747,145807,Reserved,1
+748,145807,Reserved,1
+749,145806,United States,0
+750,145806,Reserved,1
+751,145808,Reserved,1
+752,145808,Japan,3
+753,145809,Reserved,1
+754,145815,Reserved,1
+755,145815,Reserved,1
+756,145816,Reserved,1
+757,145816,Reserved,1
+758,145816,Reserved,1
+759,145816,Reserved,1
+760,145818,Reserved,1
+761,145818,Reserved,1
+762,145821,Europe,8
+763,145821,Reserved,1
+764,145822,Reserved,1
+765,145824,Reserved,1
+766,145809,Reserved,1
+767,145810,Reserved,1
+768,145810,Reserved,1
+769,145811,Reserved,1
+770,145812,Reserved,1
+771,145812,Spain,15
+772,145812,Reserved,1
+773,145824,Reserved,1
+774,145825,Reserved,1
+775,145826,Reserved,1
+776,145826,Reserved,1
+777,145826,Reserved,1
+778,145827,Reserved,1
+779,145827,Reserved,1
+780,145827,Reserved,1
+781,145828,Reserved,1
+782,145829,Reserved,1
+783,145749,Reserved,1
+784,145749,Reserved,1
+785,145751,Reserved,1
+786,145751,Reserved,1
+787,145752,Reserved,1
+788,145753,Reserved,1
+789,145754,Reserved,1
+790,145757,Reserved,1
+791,145757,Reserved,1
+792,145830,Reserved,1
+793,145802,Reserved,1
+794,145839,United States,0
+795,145839,United States,0
+796,145839,United States,0
+797,145840,Netherlands,7
+798,145840,Reserved,1
+799,145842,Seychelles,21
+800,145843,Reserved,1
+801,145838,Reserved,1
+802,145839,United States,0
+803,145839,United States,0
+804,145846,Argentina,20
+805,145847,Reserved,1
+806,145847,Reserved,1
+807,145848,United States,0
+808,145849,Reserved,1
+809,145855,United States,0
+810,145858,Reserved,1
+811,145858,Reserved,1
+812,145859,Reserved,1
+813,145850,Reserved,1
+814,145850,Reserved,1
+815,145851,Reserved,1
+816,145920,Reserved,1
+817,145921,Netherlands,7
+818,145913,Reserved,1
+819,145915,Reserved,1
+820,145903,United States,0
+821,145904,Reserved,1
+822,145925,United States,0
+823,145925,United States,0
+824,145925,United States,0
+825,145925,United States,0
+826,145925,United States,0
+827,145925,United States,0
+828,145925,United States,0
+829,145925,United States,0
+830,145925,United States,0
+831,145925,United States,0
+832,145925,United States,0
+833,145925,United States,0
+834,145955,Argentina,20
+835,145956,Netherlands,7
+836,145957,Reserved,1
+837,145957,Reserved,1
+838,145958,Reserved,1
+839,145958,Reserved,1
+840,150002,Reserved,1
+841,150003,Reserved,1
+842,150004,Netherlands,7
+843,145949,Netherlands,7
+844,145951,United States,0
+845,145952,United States,0
+846,145954,Hong Kong,26
+847,150014,Reserved,1
+848,150006,United States,0
+849,150010,Reserved,1
+850,145934,United States,0
+851,145930,United States,0
+852,145944,United States,0
+853,150105,Reserved,1
+854,150105,Reserved,1
+855,150108,Seychelles,21
+856,150108,Reserved,1
+857,150108,Reserved,1
+858,150108,Reserved,1
+859,150108,Reserved,1
+860,150109,Reserved,1
+861,150109,Reserved,1
+862,150020,Europe,8
+863,150024,United States,0
+864,150024,United States,0
+865,150024,United States,0
+866,150024,United States,0
+867,150024,United States,0
+868,150024,United States,0
+869,150024,United States,0
+870,150024,United States,0
+871,150024,United States,0
+872,150024,United States,0
+873,150024,United States,0
+874,150024,United States,0
+875,150024,United States,0
+876,150024,United States,0
+877,150042,Reserved,1
+878,150043,Netherlands,7
+879,150044,United States,0
+880,150053,Reserved,1
+881,150052,Reserved,1
+882,150053,Reserved,1
+884,150103,Europe,8
+885,150047,Reserved,1
+886,150017,Europe,8
+887,150019,Reserved,1
+888,150030,Reserved,1
+889,150029,Indonesia,22
+890,150114,Reserved,1
+891,150114,Reserved,1
+892,150114,Reserved,1
+893,150114,Reserved,1
+894,150114,Reserved,1
+895,150151,Reserved,1
+896,150151,Reserved,1
+897,150152,Reserved,1
+898,150152,Reserved,1
+899,150125,United States,0
+900,150125,United States,0
+901,150126,United States,0
+902,150126,United States,0
+903,150126,United States,0
+904,150126,United States,0
+905,150126,United States,0
+906,150126,United States,0
+907,150115,Reserved,1
+908,150136,United States,0
+909,150138,India,6
+910,150124,United Kingdom,2
+911,150131,United States,0
+912,150225,United States,0
+913,150225,United States,0
+914,150225,United States,0
+915,150225,United States,0
+916,150225,United States,0
+917,150225,United States,0
+918,150225,Reserved,1
+919,150233,Reserved,1
+920,150233,Reserved,1
+921,150304,Reserved,1
+922,150206,Reserved,1
+923,150209,United States,0
+924,150156,Reserved,1
+925,150156,Europe,8
+926,150224,United States,0
+927,150225,United States,0
+928,150225,United States,0
+929,150225,United States,0
+930,150225,United States,0
+931,150203,Japan,3
+932,150204,China,4
+933,150243,Japan,3
+934,150324,United States,0
+935,150325,United States,0
+936,150325,United States,0
+937,150325,United States,0
+938,150325,United States,0
+939,150325,United States,0
+940,150325,United States,0
+941,150325,United States,0
+942,150325,United States,0
+943,150325,United States,0
+944,150325,United States,0
+945,150325,United States,0
+946,150325,United States,0
+947,150325,United States,0
+948,150325,United States,0
+949,150325,United States,0
+950,150338,Reserved,1
+951,150339,Argentina,20
+952,150410,Reserved,1
+953,150405,Reserved,1
+954,150312,Reserved,1
+955,150356,Japan,3
+956,150359,China,4
+957,150352,Norway,17
+958,150332,Sweden,12
+959,150325,Europe,8
+960,150426,United States,0
+961,150426,United States,0
+962,150425,United States,0
+963,150425,United States,0
+964,150426,United States,0
+965,150426,United States,0
+966,150426,United States,0
+967,150426,United States,0
+968,150426,United States,0
+969,150425,United States,0
+970,150426,United States,0
+971,150426,United States,0
+972,150426,United States,0
+973,150426,Mexico,5
+974,150440,Japan,3
+975,150444,Reserved,1
+976,150445,Reserved,1
+977,150439,Norway,17
+978,150416,Reserved,1
+979,150417,Reserved,1
+980,150420,Reserved,1
+981,150411,United States,0
+982,150411,Reserved,1
+983,150446,Reserved,1
+984,150446,Reserved,1
+985,150433,Reserved,1
+986,150510,Japan,3
+987,150520,United States,0
+988,150526,United States,0
+989,150525,United States,0
+990,150525,United States,0
+991,150526,United States,0
+992,150525,United States,0
+993,150525,United States,0
+994,150525,United States,0
+995,150526,United States,0
+996,150526,United States,0
+997,150526,United States,0
+998,150526,United States,0
+999,150526,United States,0
+1000,150526,United States,0
+1001,150526,United States,0
+1002,150526,United States,0
+1003,150526,Reserved,1
+1004,150540,Reserved,1
+1005,150540,China,4
+1006,150550,Europe,8
+1007,150554,United States,0
+1008,150554,Reserved,1
+1009,150617,Germany,9
+1010,150617,Europe,8
+1011,150532,China,4
+1012,150534,United States,0
+1013,150559,Japan,3
+1014,150612,Germany,9
+1015,150614,Philippines,19
+1016,150606,United States,0
+1017,150541,Reserved,1
+1018,150725,United States,0
+1019,150724,United States,0
+1020,150725,United States,0
+1021,150724,United States,0
+1022,150725,United States,0
+1023,150724,United States,0
+1024,150725,United States,0
+1025,150624,United States,0
+1026,150624,United States,0
+1027,150624,United States,0
+1028,150624,United States,0
+1029,150624,United States,0
+1030,150624,United States,0
+1031,150624,United States,0
+1032,150624,United States,0
+1033,150624,United States,0
+1034,150624,United States,0
+1035,150624,United States,0
+1036,150707,Reserved,1
+1037,150655,Reserved,1
+1038,150655,Reserved,1
+1039,150715,China,4
+1040,150719,China,4
+1041,150720,United States,0
+1042,150702,United States,0
+1043,150703,Europe,8
+1044,150711,Netherlands,7
+1045,150638,Japan,3
+1046,150634,United States,0
+1047,150825,United States,0
+1048,150825,United States,0
+1049,150825,United States,0
+1050,150825,United States,0
+1051,150825,United States,0
+1052,150825,United States,0
+1053,150825,United States,0
+1054,150825,United States,0
+1055,150825,United States,0
+1056,150825,United States,0
+1057,150825,United States,0
+1058,150825,United States,0
+1059,150825,United States,0
+1060,150825,United States,0
+1061,150751,United States,0
+1062,150752,Reserved,1
+1063,150756,Europe,8
+1064,150756,Japan,3
+1065,150801,Reserved,1
+1066,150740,Reserved,1
+1067,150829,Reserved,1
+1068,150747,Reserved,1
+1069,150748,Taiwan,27
+1070,150811,United States,0
+1071,150813,United States,0
+1072,150841,Hong Kong,26
+1073,150833,Colombia,11
+1074,150924,United States,0
+1075,150924,United States,0
+1076,150923,United States,0
+1077,150923,United States,0
+1078,150924,United States,0
+1079,150924,United States,0
+1080,150924,United States,0
+1081,150923,United States,0
+1082,150924,United States,0
+1083,150923,United States,0
+1084,150923,United States,0
+1085,150923,United States,0
+1086,150924,United States,0
+1087,150924,United States,0
+1088,150924,United States,0
+1089,150905,Reserved,1
+1090,150905,Oman,28
+1091,150905,Taiwan,27
+1092,150905,China,4
+1093,150853,United States,0
+1094,150900,Reserved,1
+1095,150912,United States,0
+1096,150915,United Kingdom,2
+1097,150908,Taiwan,27
+1098,150948,United Kingdom,2
+1100,151024,United States,0
+1101,151023,United States,0
+1102,151024,United States,0
+1103,151024,United States,0
+1104,151024,United States,0
+1105,151024,United States,0
+1106,151024,United States,0
+1107,151024,United States,0
+1108,151024,United States,0
+1109,151024,United States,0
+1110,151024,United States,0
+1111,151031,Israel,29
+1112,151033,United Kingdom,2
+1113,151035,France,30
+1114,151027,Reserved,1
+1115,151013,China,4
+1116,151014,United States,0
+1117,151001,China,4
+1118,151004,China,4
+1119,151019,United States,0
+1120,151019,Argentina,20
+1121,151042,Argentina,20
+1122,151010,United States,0
+1123,151040,Europe,8
+1124,151121,United States,0
+1125,151123,United States,0
+1126,151123,United States,0
+1127,151123,United States,0
+1128,151123,United States,0
+1129,151124,United States,0
+1130,151124,United States,0
+1131,151124,United States,0
+1132,151124,United States,0
+1133,151124,United States,0
+1134,151124,United States,0
+1135,151124,United States,0
+1136,151124,United States,0
+1137,151124,United States,0
+1138,151124,United States,0
+1139,151123,United States,0
+1140,151124,United States,0
+1141,151151,United Kingdom,2
+1142,151153,Reserved,1
+1143,151131,Philippines,19
+1144,151132,Sweden,12
+1145,151135,Norway,17
+1146,151046,Philippines,19
+1147,151047,Reserved,1
+1148,151129,Sweden,12
+1149,151130,United States,0
+1150,151137,Sweden,12
+1151,151149,United States,0
+1152,151151,Europe,8
+1153,151053,United States,0
+1154,151202,Europe,8
+1155,151223,China,4
+1156,151224,United States,0
+1157,151224,United States,0
+1158,151224,United States,0
+1159,151224,United States,0
+1160,151225,United States,0
+1161,151225,United States,0
+1162,151224,United States,0
+1163,151225,United States,0
+1164,151224,United States,0
+1165,151225,United States,0
+1166,151224,United States,0
+1167,151224,United States,0
+1168,151224,United States,0
+1169,151224,United States,0
+1170,151224,United States,0
+1171,151224,United States,0
+1172,151301,China,4
+1173,151226,France,30
+1174,151231,United States,0
+1175,151231,Japan,3
+1176,151231,China,4
+1177,151217,Europe,8
+1178,151218,Chile,31
+1179,151220,Europe,8
+1180,151302,Reserved,1
+1181,151309,Japan,3
+1182,151211,United States,0
+1183,151244,United States,0
+1184,151211,Germany,9
+1185,151323,United States,0
+1186,151323,United States,0
+1187,151324,United States,0
+1188,151324,United States,0
+1189,151324,United States,0
+1190,151324,United States,0
+1191,151324,United States,0
+1192,151324,United States,0
+1193,151324,United States,0
+1194,151324,United States,0
+1195,151323,United States,0
+1196,151323,United States,0
+1197,151323,United States,0
+1198,151324,United States,0
+1199,151324,United States,0
+1200,151337,Croatia,18
+1201,151339,Reserved,1
+1202,151407,United States,0
+1203,151408,United States,0
+1204,151409,United States,0
+1205,151411,United States,0
+1206,151411,Colombia,11
+1207,151353,United States,0
+1208,151356,Europe,8
+1209,151358,United States,0
+1210,151401,United States,0
+1211,151405,Hong Kong,26
+1212,151342,Croatia,18
+1213,151335,United States,0
+1214,151314,United States,0
+1215,151424,United States,0
+1216,151423,United States,0
+1217,151424,United States,0
+1218,151423,United States,0
+1219,151424,United States,0
+1220,151424,United States,0
+1221,151424,United States,0
+1222,151424,United States,0
+1223,151424,United States,0
+1224,151424,United States,0
+1225,151424,United States,0
+1226,151424,United States,0
+1227,151424,United States,0
+1228,151424,United States,0
+1229,151424,United States,0
+1230,151424,United States,0
+1231,151424,United States,0
+1232,151424,United States,0
+1233,151526,United States,0
+1234,151526,United States,0
+1235,151525,United States,0
+1236,151525,United States,0
+1237,151526,United States,0
+1238,151525,United States,0
+1239,151525,United States,0
+1240,151525,United States,0
+1241,151525,United States,0
+1242,151526,United States,0
+1243,151525,United States,0
+1244,151526,United States,0
+1245,151438,India,6
+1246,151428,United Kingdom,2
+1247,151428,United States,0
+1248,151428,Japan,3
+1249,151507,Japan,3
+1250,151511,Brazil,16
+1251,151412,United States,0
+1252,151415,United States,0
+1253,151443,Hong Kong,26
+1254,151434,United States,0
+1255,151456,Japan,3
+1256,151625,United States,0
+1257,151625,United States,0
+1258,151625,United States,0
+1259,151625,United States,0
+1260,151625,United States,0
+1261,151625,United States,0
+1262,151625,United States,0
+1263,151625,United States,0
+1264,151625,United States,0
+1265,151625,United States,0
+1266,151625,United States,0
+1267,151625,United States,0
+1268,151625,United States,0
+1269,151619,United States,0
+1270,151621,Philippines,19
+1271,151628,Mexico,5
+1272,151637,United States,0
+1273,151547,Czech Republic,32
+1274,151540,Hong Kong,26
+1275,151546,Japan,3
+1276,151613,China,4
+1277,151610,United States,0
+1278,151723,Reserved,1
+1279,151724,United States,0
+1280,151724,United States,0
+1281,151724,United States,0
+1282,151724,United States,0
+1283,151724,United States,0
+1284,151724,United States,0
+1285,151724,United States,0
+1286,151723,United States,0
+1287,151724,United States,0
+1288,151724,United States,0
+1289,151724,United States,0
+1290,151748,Reserved,1
+1291,151748,Reserved,1
+1292,151751,Europe,8
+1293,151721,United States,0
+1294,151744,Japan,3
+1295,151744,Europe,8
+1296,151644,Italy,33
+1297,151659,China,4
+1298,151800,Philippines,19
+1300,151823,Japan,3
+1301,151824,United States,0
+1302,151824,United States,0
+1303,151824,United States,0
+1304,151824,United States,0
+1305,151824,United States,0
+1306,151824,United States,0
+1307,151824,United States,0
+1308,151824,United States,0
+1309,151804,Reserved,1
+1310,151804,Reserved,1
+1311,151805,Reserved,1
+1312,151805,United States,0
+1313,151844,Reserved,1
+1314,151812,Reserved,1
+1315,151810,United States,0
+1316,151811,Germany,9
+1317,151832,China,4
+1318,151835,Hong Kong,26
+1319,151817,Europe,8
+1320,151820,Netherlands,7
+1321,151851,Hong Kong,26
+1322,151924,United States,0
+1323,151925,United States,0
+1324,151924,United States,0
+1325,151925,United States,0
+1326,151924,United States,0
+1327,151924,United States,0
+1328,151925,United States,0
+1329,151924,United States,0
+1330,151924,United States,0
+1331,151925,United States,0
+1332,151924,United States,0
+1333,151925,United States,0
+1334,151911,Reserved,1
+1335,151913,Reserved,1
+1336,152020,Reserved,1
+1337,152020,United States,0
+1338,151953,Hong Kong,26
+1339,151955,Hong Kong,26
+1340,151941,United States,0
+1341,151947,Hong Kong,26
+1342,151959,Hong Kong,26
+1343,152124,United States,0
+1344,152124,United States,0
+1345,152124,United States,0
+1346,152124,United States,0
+1347,152124,United States,0
+1348,152124,United States,0
+1349,152124,United States,0
+1350,152124,United States,0
+1351,152124,United States,0
+1352,152124,United States,0
+1353,152124,United States,0
+1354,152124,United States,0
+1355,152124,United States,0
+1356,152124,United States,0
+1357,152124,United States,0
+1358,152124,United States,0
+1359,152124,United States,0
+1360,152124,United States,0
+1361,152124,United States,0
+1362,152022,Reserved,1
+1363,152024,United States,0
+1364,152023,United States,0
+1365,152023,United States,0
+1366,152023,United States,0
+1367,152023,United States,0
+1368,152023,United States,0
+1369,152023,United States,0
+1370,152024,United States,0
+1371,152024,United States,0
+1372,152024,United States,0
+1373,152024,United States,0
+1374,152024,United States,0
+1375,152053,Reserved,1
+1376,152054,Reserved,1
+1377,152034,Reserved,1
+1378,152037,Reserved,1
+1379,152049,Reserved,1
+1380,152139,United Kingdom,2
+1381,152139,United States,0
+1382,152058,United States,0
+1383,152117,United States,0
+1384,152224,United States,0
+1385,152225,United States,0
+1386,152224,United States,0
+1387,152224,United States,0
+1388,152224,United States,0
+1389,152224,United States,0
+1390,152225,United States,0
+1391,152225,United States,0
+1392,152225,United States,0
+1393,152224,United States,0
+1394,152225,United States,0
+1395,152225,United States,0
+1396,152225,United States,0
+1397,152224,United States,0
+1398,152225,United States,0
+1399,152225,Reserved,1
+1400,152247,Reserved,1
+1401,152247,Brazil,16
+1402,152208,United States,0
+1403,152209,Reserved,1
+1404,152249,United States,0
+1405,152249,United States,0
+1406,152250,Brazil,16
+1407,152251,Reserved,1
+1408,152153,Argentina,20
+1409,152153,Argentina,20
+1410,152153,Argentina,20
+1411,152154,Argentina,20
+1412,152217,Reserved,1
+1413,152218,United Kingdom,2
+1414,152218,Mexico,5
+1415,152159,Argentina,20
+1416,152323,Reserved,1
+1417,152323,United States,0
+1418,152324,United States,0
+1419,152323,United States,0
+1420,152324,United States,0
+1421,152323,United States,0
+1422,152324,United States,0
+1423,152323,United States,0
+1424,152324,United States,0
+1425,152324,United States,0
+1426,152324,United States,0
+1427,152325,South Africa,34
+1428,152334,Reserved,1
+1429,152336,Mexico,5
+1430,152337,China,4
+1431,152338,United States,0
+1432,152339,Reserved,1
+1433,152319,Reserved,1
+1434,152320,United States,0
+1435,152320,Reserved,1
+1436,152253,United States,0
+1437,152257,United States,0
+1438,152257,United Kingdom,2
+1439,152348,Netherlands,7
+1440,152352,United States,0
+1441,152353,United States,0
+1442,152356,Netherlands,7
+1443,152315,Brazil,16
+1444,152346,Europe,8
+1445,152424,United States,0
+1446,152424,United States,0
+1447,152424,United States,0
+1448,152424,United States,0
+1449,152424,United States,0
+1450,152424,United States,0
+1451,152424,United States,0
+1452,152424,United States,0
+1453,152424,United States,0
+1454,152424,United States,0
+1455,152424,United States,0
+1456,152424,United States,0
+1457,152424,United States,0
+1458,152425,United States,0
+1459,152425,United States,0
+1460,152426,Germany,9
+1461,152446,United States,0
+1462,152446,Netherlands,7
+1463,152448,Reserved,1
+1464,152428,United States,0
+1465,152429,United States,0
+1466,152429,Reserved,1
+1467,152431,Reserved,1
+1468,152403,United States,0
+1469,152404,Reserved,1
+1470,152440,United States,0
+1471,152449,Malaysia,35
+1472,152451,United States,0
+1473,152433,United States,0
+1474,152435,United States,0
+1475,152416,United Kingdom,2
+1476,152421,Czech Republic,32
+1477,152519,Netherlands,7
+1478,152519,Netherlands,7
+1479,152519,Netherlands,7
+1480,152519,Netherlands,7
+1481,152521,Vietnam,14
+1482,152522,Reserved,1
+1483,152523,United States,0
+1484,152523,United States,0
+1485,152524,United States,0
+1486,152524,United States,0
+1487,152524,United States,0
+1488,152524,United States,0
+1489,152524,United States,0
+1490,152524,United States,0
+1491,152524,United States,0
+1492,152524,United States,0
+1493,152524,United States,0
+1494,152524,United States,0
+1495,152552,Reserved,1
+1496,152553,Reserved,1
+1497,152539,United States,0
+1498,152453,United States,0
+1499,152455,United States,0
+1500,152455,United States,0
+1501,152534,United States,0
+1502,152534,China,4
+1503,152543,Russian Federation,13
+1504,152509,Netherlands,7
+1505,152529,Croatia,18
+1506,152724,United States,0
+1507,152724,United States,0
+1508,152724,United States,0
+1509,152724,United States,0
+1510,152724,United States,0
+1511,152724,United States,0
+1512,152724,United States,0
+1513,152724,United States,0
+1514,152724,United States,0
+1515,152724,United States,0
+1516,152724,United States,0
+1517,152724,United States,0
+1518,152724,United States,0
+1519,152724,United States,0
+1520,152724,United States,0
+1521,152724,United States,0
+1522,152726,Europe,8
+1523,152624,United States,0
+1524,152624,United States,0
+1525,152625,United States,0
+1526,152624,United States,0
+1527,152626,United States,0
+1528,152620,Reserved,1
+1529,152556,India,6
+1530,152556,Europe,8
+1531,152729,Greece,23
+1532,152732,Japan,3
+1533,152613,United Kingdom,2
+1534,152702,Russian Federation,13
+1535,152559,Indonesia,22
+1536,152823,United States,0
+1537,152823,United States,0
+1538,152823,United States,0
+1539,152823,United States,0
+1540,152823,United States,0
+1541,152823,United States,0
+1542,152823,United States,0
+1543,152823,United States,0
+1544,152823,United States,0
+1545,152823,United States,0
+1546,152823,United States,0
+1547,152823,United States,0
+1548,152823,United States,0
+1549,152823,United States,0
+1550,152823,United States,0
+1551,152824,United States,0
+1552,152824,Reserved,1
+1553,152842,Reserved,1
+1554,152843,Reserved,1
+1555,152849,United States,0
+1556,152850,China,4
+1557,152852,Brazil,16
+1558,152811,United States,0
+1559,152813,Japan,3
+1560,152904,Japan,3
+1561,152905,Russian Federation,13
+1562,152757,Philippines,19
+1563,152817,Reserved,1
+1564,152745,Bulgaria,36
+1565,152923,United States,0
+1566,152923,United States,0
+1567,152923,United States,0
+1568,152923,United States,0
+1569,152923,United States,0
+1570,152923,United States,0
+1571,152923,United States,0
+1572,152923,United States,0
+1573,152923,United States,0
+1574,152923,United States,0
+1575,152923,United States,0
+1576,152923,United States,0
+1577,152923,United States,0
+1578,152923,United States,0
+1579,152923,United States,0
+1580,152923,United States,0
+1581,152924,United States,0
+1582,152926,United States,0
+1583,152951,Europe,8
+1584,152920,United States,0
+1585,152921,United States,0
+1586,152922,Europe,8
+1587,152923,United States,0
+1588,153007,Russian Federation,13
+1589,152944,Europe,8
+1590,152948,Europe,8
+1591,153012,Reserved,1
+1592,153000,United States,0
+1593,152938,United States,0
+1594,152931,Norway,17
+1595,153020,Netherlands,7
+1596,153022,United States,0
+1597,153022,United States,0
+1598,153022,United States,0
+1599,153022,United States,0
+1600,153023,United States,0
+1601,153022,United States,0
+1602,153022,United States,0
+1603,153022,United States,0
+1604,153022,United States,0
+1605,153023,United States,0
+1606,153023,United States,0
+1607,153023,United States,0
+1608,153023,United States,0
+1609,153023,United States,0
+1610,153023,United States,0
+1611,153023,United States,0
+1612,153023,United States,0
+1613,153023,United States,0
+1614,153123,United States,0
+1615,153123,United States,0
+1616,153123,United States,0
+1617,153123,United States,0
+1618,153123,United States,0
+1619,153123,United States,0
+1620,153123,United States,0
+1621,153123,United States,0
+1622,153123,United States,0
+1623,153123,United States,0
+1624,153124,United States,0
+1625,153124,United States,0
+1626,153124,United States,0
+1627,153124,United States,0
+1628,153044,United States,0
+1629,153047,Reserved,1
+1630,153109,Seychelles,21
+1631,153110,Czech Republic,32
+1632,153110,Reserved,1
+1633,153056,Netherlands,7
+1634,153058,Reserved,1
+1635,153018,Reserved,1
+1636,153053,Reserved,1
+1637,153126,United Kingdom,2
+1638,153127,China,4
+1639,153145,United States,0
+1640,153146,United States,0
+1641,153148,United States,0
+1642,153210,United States,0
+1643,153211,Reserved,1
+1644,153134,United States,0
+1645,153134,United States,0
+1646,153206,United Kingdom,2
+1647,153133,United States,0
+1648,153155,United States,0
+1649,153203,China,4
+1650,153214,India,6
+1651,153220,Philippines,19
+1652,153223,United States,0
+1653,153223,United States,0
+1654,153223,United States,0
+1655,153223,United States,0
+1656,153223,United States,0
+1657,153223,United States,0
+1658,153223,United States,0
+1659,153223,United States,0
+1660,153223,United States,0
+1661,153224,United States,0
+1662,153223,United States,0
+1663,153356,Reserved,1
+1664,153357,China,4
+1665,153358,United States,0
+1666,153245,United Kingdom,2
+1667,153245,China,4
+1668,153247,Reserved,1
+1669,153323,United States,0
+1670,153323,United States,0
+1671,153323,United States,0
+1672,153323,United States,0
+1673,153323,United States,0
+1674,153323,United States,0
+1675,153323,United States,0
+1676,153323,United States,0
+1677,153351,Colombia,11
+1678,153353,Reserved,1
+1679,153409,Reserved,1
+1680,153329,Seychelles,21
+1681,153330,Greece,23
+1683,153402,Brazil,16
+1684,153424,United States,0
+1685,153424,United States,0
+1686,153424,United States,0
+1687,153425,Reserved,1
+1688,153425,United States,0
+1689,153424,United States,0
+1690,153425,United States,0
+1691,153425,United States,0
+1692,153425,United States,0
+1693,153425,United States,0
+1694,153424,United States,0
+1695,153424,United States,0
+1696,153425,United States,0
+1697,153424,United States,0
+1698,153425,United States,0
+1699,153425,United States,0
+1700,153424,United States,0
+1701,153425,Reserved,1
+1702,153425,Reserved,1
+1703,153520,United States,0
+1704,153523,United States,0
+1705,153523,United States,0
+1706,153523,United States,0
+1707,153523,United States,0
+1708,153523,United States,0
+1709,153523,United States,0
+1710,153523,United States,0
+1711,153523,United States,0
+1712,153523,United States,0
+1713,153523,United States,0
+1714,153523,United States,0
+1715,153523,United States,0
+1716,153523,United States,0
+1717,153459,Reserved,1
+1718,153500,Colombia,11
+1719,153419,United States,0
+1720,153443,Hong Kong,26
+1721,153444,Reserved,1
+1722,153424,Reserved,1
+1723,153458,Reserved,1
+1724,153544,Europe,8
+1725,153547,Reserved,1
+1726,153548,United States,0
+1727,153555,Reserved,1
+1728,153556,Netherlands,7
+1729,153608,United States,0
+1730,153530,United States,0
+1731,153533,Reserved,1
+1732,153610,Europe,8
+1733,153611,Germany,9
+1734,153614,India,6
+1735,153615,Reserved,1
+1736,153551,Europe,8
+1737,153525,Europe,8
+1738,153620,Reserved,1
+1739,153623,United States,0
+1740,153624,United States,0
+1741,153624,United States,0
+1742,153623,United States,0
+1743,153623,United States,0
+1744,153623,United States,0
+1745,153624,United States,0
+1746,153624,United States,0
+1747,153624,United States,0
+1748,153624,United States,0
+1749,153624,United States,0
+1750,153624,United States,0
+1751,153624,United States,0
+1752,153624,Philippines,19
+1753,153624,United States,0
+1754,153624,United States,0
+1755,153720,China,4
+1756,153724,United States,0
+1757,153724,United States,0
+1758,153724,United States,0
+1759,153724,United States,0
+1760,153724,United States,0
+1761,153724,United States,0
+1762,153736,China,4
+1763,153736,China,4
+1764,153736,China,4
+1765,153711,United States,0
+1766,153712,Colombia,11
+1767,153652,India,6
+1768,153659,Reserved,1
+1769,153719,Japan,3
+1770,153732,Spain,15
+1771,153734,United States,0
+1772,153634,Indonesia,22
+1773,153824,United States,0
+1774,153824,United States,0
+1775,153824,United States,0
+1776,153824,United States,0
+1777,153824,United States,0
+1778,153824,United States,0
+1779,153824,United States,0
+1780,153824,United States,0
+1781,153824,United States,0
+1782,153824,United States,0
+1783,153824,United States,0
+1784,153824,United States,0
+1785,153824,United States,0
+1786,153824,United States,0
+1787,153811,Spain,15
+1788,153813,Spain,15
+1789,153813,United States,0
+1790,153814,Reserved,1
+1791,153751,Reserved,1
+1792,153838,Reserved,1
+1793,153845,Poland,37
+1794,153831,United States,0
+1795,153800,China,4
+1796,153826,United States,0
+1797,153807,Reserved,1
+1798,154025,United States,0
+1799,154025,United States,0
+1800,154025,United States,0
+1801,154025,United States,0
+1802,154025,United States,0
+1803,154025,United States,0
+1804,154025,United States,0
+1805,154025,United States,0
+1806,154025,United States,0
+1807,154025,United States,0
+1808,154025,United States,0
+1809,154025,United States,0
+1810,153923,United States,0
+1811,153923,United States,0
+1812,153923,United States,0
+1813,153923,United States,0
+1814,153923,United States,0
+1815,153923,United States,0
+1816,153923,United States,0
+1817,153923,United States,0
+1818,153923,United States,0
+1819,153923,United States,0
+1820,153923,United States,0
+1821,153924,United States,0
+1822,154006,Reserved,1
+1823,154007,Reserved,1
+1824,153911,Mexico,5
+1825,153913,Reserved,1
+1826,154020,Reserved,1
+1827,154020,Reserved,1
+1828,153935,India,6
+1829,153938,United States,0
+1830,153938,Romania,38
+1831,154001,Reserved,1
+1832,154002,China,4
+1833,154024,United States,0
+1834,153958,United States,0
+1835,154123,United States,0
+1836,154124,United States,0
+1837,154124,United States,0
+1838,154124,United States,0
+1839,154124,United States,0
+1840,154124,United States,0
+1841,154124,United States,0
+1842,154124,United States,0
+1843,154124,United States,0
+1844,154124,United States,0
+1845,154124,United States,0
+1846,154124,United States,0
+1847,154124,United States,0
+1848,154125,Netherlands,7
+1849,154106,Reserved,1
+1850,154107,Canada,24
+1851,154114,United Kingdom,2
+1852,154056,United States,0
+1853,154059,Brazil,16
+1854,154050,United States,0
+1855,154103,United States,0
+1856,154119,United States,0
+1857,154035,United States,0
+1858,154042,United States,0
+1859,154125,Reserved,1
+1860,154126,United States,0
+1861,154128,United States,0
+1862,154128,Reserved,1
+1863,154150,Europe,8
+1864,154152,Reserved,1
+1865,154212,Reserved,1
+1866,154145,Mexico,5
+1867,154146,Europe,8
+1868,154218,Reserved,1
+1869,154220,Europe,8
+1870,154156,United States,0
+1871,154200,Philippines,19
+1872,154200,United States,0
+1873,154131,Norway,17
+1874,154134,Norway,17
+1875,154141,Europe,8
+1876,154224,United States,0
+1877,154224,United States,0
+1878,154224,United States,0
+1879,154224,United States,0
+1880,154224,United States,0
+1881,154224,United States,0
+1882,154224,United States,0
+1883,154224,United States,0
+1884,154224,United States,0
+1885,154224,United States,0
+1886,154224,United States,0
+1887,154224,United States,0
+1888,154225,United States,0
+1889,154323,United States,0
+1890,154323,United States,0
+1891,154323,United States,0
+1892,154323,United States,0
+1893,154323,United States,0
+1894,154323,United States,0
+1895,154323,United States,0
+1896,154323,United States,0
+1897,154323,United States,0
+1898,154323,United States,0
+1899,154323,United States,0
+1900,154323,United States,0
+1901,154235,Pakistan,39
+1902,154312,United Kingdom,2
+1903,154232,United States,0
+1904,154250,United States,0
+1905,154303,Europe,8
+1906,154226,Europe,8
+1907,154424,United States,0
+1908,154424,United States,0
+1909,154424,United States,0
+1910,154424,United States,0
+1911,154424,United States,0
+1912,154424,United States,0
+1913,154424,United States,0
+1914,154424,United States,0
+1915,154424,United States,0
+1916,154424,United States,0
+1917,154424,United States,0
+1918,154424,United States,0
+1919,154424,United States,0
+1920,154424,United States,0
+1921,154424,United States,0
+1922,154413,Reserved,1
+1923,154348,Reserved,1
+1924,154436,Philippines,19
+1925,154437,Czech Republic,32
+1926,154429,Thailand,40
+1927,154344,China,4
+1928,154401,Sweden,12
+1929,154354,China,4
+1930,154326,United States,0
+1931,154523,United States,0
+1932,154522,United States,0
+1933,154523,United States,0
+1934,154522,United States,0
+1935,154522,United States,0
+1936,154523,United States,0
+1937,154523,United States,0
+1938,154523,United States,0
+1939,154523,United States,0
+1940,154523,United States,0
+1941,154523,United States,0
+1942,154558,United States,0
+1943,154559,Netherlands,7
+1944,154514,United States,0
+1945,154517,Reserved,1
+1946,154517,Reserved,1
+1947,154507,France,30
+1948,154507,France,30
+1949,154507,France,30
+1950,154608,Sweden,12
+1951,154444,China,4
+1952,154540,United States,0
+1953,154458,Colombia,11
+1954,154722,United States,0
+1955,154723,United States,0
+1956,154723,United States,0
+1957,154723,United States,0
+1958,154722,United States,0
+1959,154722,United States,0
+1960,154723,United States,0
+1961,154722,United States,0
+1962,154722,United States,0
+1963,154723,United States,0
+1964,154723,United States,0
+1965,154724,Reserved,1
+1966,154725,Reserved,1
+1967,154623,United States,0
+1968,154623,United States,0
+1969,154623,United States,0
+1970,154623,United States,0
+1971,154623,United States,0
+1972,154623,United States,0
+1973,154623,United States,0
+1974,154623,United States,0
+1975,154623,United States,0
+1976,154623,United States,0
+1977,154623,United States,0
+1978,154623,United States,0
+1979,154623,United States,0
+1980,154701,Reserved,1
+1981,154705,Argentina,20
+1982,154650,Argentina,20
+1983,154650,Reserved,1
+1984,154700,Reserved,1
+1985,154611,Sweden,12
+1986,154613,China,4
+1987,154642,United States,0
+1988,154727,Reserved,1
+1989,154729,Reserved,1
+1990,154737,United States,0
+1991,154742,Russian Federation,13
+1992,154743,Reserved,1
+1993,154746,Japan,3
+1994,154748,Europe,8
+1995,154756,Netherlands,7
+1996,154756,Europe,8
+1997,154757,United States,0
+1998,154758,Reserved,1
+1999,154801,United States,0
