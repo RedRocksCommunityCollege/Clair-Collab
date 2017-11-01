@@ -2,8 +2,11 @@ import pandas as pd
 import plotly as py
 from plotly.graph_objs import Scatter, Layout
 py.offline.init_notebook_mode(connected=True)
-py.tools.set_credentials_file(username='CoryK8nn8dy', api_key='••••••••••')
-py.tools.set_config_file(sharing='public')
+#py.tools.set_credentials_file(username='CoryK8nn8dy', api_key='••••••••••')
+#py.tools.set_config_file(sharing='public')
+
+df_Country_Codes = pd.read_csv('/Coding/Clair-Global-Collab/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
+
 
 # Reads in pdf.
 # nrows = number of rows to read in
@@ -31,14 +34,14 @@ df_Time_Country.columns = ['Time', 'Country', 'Index']
 # Display Data Frame
 df_Time_Country
 
-
+#143223
 data = [ dict(
         type = 'choropleth',
-        locations = df_Time_Country['Time'],
-        #z = df['Index'],
+        locations = df_Time_Country['Country'],
+        z = df_Time_Country['Time'],
         text = df_Time_Country['Country'],
-        colorscale = [[143223,"rgb(5, 10, 172)"],[143223,"rgb(40, 60, 190)"],[143223,"rgb(70, 100, 245)"],\
-            [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[143223,"rgb(220, 220, 220)"]],
+        colorscale = [[0,"rgb(5, 10, 172)"],[0.1,"rgb(40, 60, 190)"],[0.4,"rgb(70, 100, 245)"],\
+            [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[1,"rgb(220, 220, 220)"]],
         autocolorscale = False,
         reversescale = False,
         marker = dict(
@@ -49,7 +52,7 @@ data = [ dict(
      ) ]
 
 layout = dict(
-    title = 'Login Country Origin',
+    title = 'Countries Pinged',
     geo = dict(
         showframe = False,
         showcoastlines = False,
@@ -60,10 +63,8 @@ layout = dict(
     )
 
 fig = dict( data=data, layout=layout )
-fig
 
-py.offline.init_notebook_mode(connected=True)
-py.offline.iplot( fig, validate=False, filename='d3-world-map' )
+py.offline.iplot( fig, validate=False, filename='Clair-event-world-map' )
 
 
 '''The purpose of the code below, which is currently incomplete, is to categorize the countries by continent. Then, create a scatterplot of countries(y-axis) pinged over time(x-axis) where the countries' points are color coded by continent for additional dimensionality within the graph.'''
