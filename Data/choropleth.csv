@@ -1,0 +1,223 @@
+,Country,Code,Count
+0,Afghanistan,AFGF,0.0
+1,Albania,ALB,0.0
+2,Algeria,DZA,0.0
+3,American Samoa,ASM,0.0
+4,Andorra,AND,0.0
+5,Angola,AGO,0.0
+6,Anguilla,AIA,0.0
+7,Antigua and Barbuda,ATG,0.0
+8,Argentina,ARG,13.0
+9,Armenia,ARM,0.0
+10,Aruba,ABW,0.0
+11,Australia,AUS,0.0
+12,Austria,AUT,0.0
+13,Azerbaijan,AZE,0.0
+14,"Bahamas, The",BHM,0.0
+15,Bahrain,BHR,0.0
+16,Bangladesh,BGD,0.0
+17,Barbados,BRB,0.0
+18,Belarus,BLR,0.0
+19,Belgium,BEL,0.0
+20,Belize,BLZ,0.0
+21,Benin,BEN,0.0
+22,Bermuda,BMU,0.0
+23,Bhutan,BTN,0.0
+24,Bolivia,BOL,0.0
+25,Bosnia and Herzegovina,BIH,0.0
+26,Botswana,BWA,0.0
+27,Brazil,BRA,9.0
+28,British Virgin Islands,VGB,0.0
+29,Brunei,BRN,0.0
+30,Bulgaria,BGR,1.0
+31,Burkina Faso,BFA,0.0
+32,Burma,MMR,0.0
+33,Burundi,BDI,0.0
+34,Cabo Verde,CPV,0.0
+35,Cambodia,KHM,0.0
+36,Cameroon,CMR,0.0
+37,Canada,CAN,3.0
+38,Cayman Islands,CYM,0.0
+39,Central African Republic,CAF,0.0
+40,Chad,TCD,0.0
+41,Chile,CHL,1.0
+42,China,CHN,50.0
+43,Colombia,COL,7.0
+44,Comoros,COM,0.0
+45,"Congo, Democratic Republic of the",COD,0.0
+46,"Congo, Republic of the",COG,0.0
+47,Cook Islands,COK,0.0
+48,Costa Rica,CRI,0.0
+49,Cote d'Ivoire,CIV,0.0
+50,Croatia,HRV,5.0
+51,Cuba,CUB,0.0
+52,Curacao,CUW,0.0
+53,Cyprus,CYP,0.0
+54,Czech Republic,CZE,4.0
+55,Denmark,DNK,0.0
+56,Djibouti,DJI,0.0
+57,Dominica,DMA,0.0
+58,Dominican Republic,DOM,0.0
+59,Ecuador,ECU,0.0
+60,Egypt,EGY,0.0
+61,El Salvador,SLV,0.0
+62,Equatorial Guinea,GNQ,0.0
+63,Eritrea,ERI,0.0
+64,Estonia,EST,0.0
+65,Ethiopia,ETH,0.0
+66,Falkland Islands (Islas Malvinas),FLK,0.0
+67,Faroe Islands,FRO,0.0
+68,Fiji,FJI,0.0
+69,Finland,FIN,0.0
+70,France,FRA,5.0
+71,French Polynesia,PYF,0.0
+72,Gabon,GAB,0.0
+73,"Gambia, The",GMB,0.0
+74,Georgia,GEO,0.0
+75,Germany,DEU,9.0
+76,Ghana,GHA,0.0
+77,Gibraltar,GIB,0.0
+78,Greece,GRC,3.0
+79,Greenland,GRL,0.0
+80,Grenada,GRD,0.0
+81,Guam,GUM,0.0
+82,Guatemala,GTM,0.0
+83,Guernsey,GGY,0.0
+84,Guinea-Bissau,GNB,0.0
+85,Guinea,GIN,0.0
+86,Guyana,GUY,0.0
+87,Haiti,HTI,0.0
+88,Honduras,HND,0.0
+89,Hong Kong,HKG,12.0
+90,Hungary,HUN,0.0
+91,Iceland,ISL,0.0
+92,India,IND,11.0
+93,Indonesia,IDN,4.0
+94,Iran,IRN,0.0
+95,Iraq,IRQ,0.0
+96,Ireland,IRL,0.0
+97,Isle of Man,IMN,0.0
+98,Israel,ISR,1.0
+99,Italy,ITA,1.0
+100,Jamaica,JAM,0.0
+101,Japan,JPN,31.0
+102,Jersey,JEY,0.0
+103,Jordan,JOR,1.0
+104,Kazakhstan,KAZ,0.0
+105,Kenya,KEN,0.0
+106,Kiribati,KIR,0.0
+107,"Korea, North",PRK,0.0
+108,"Korea, South",KOR,0.0
+109,Kosovo,KSV,0.0
+110,Kuwait,KWT,0.0
+111,Kyrgyzstan,KGZ,0.0
+112,Laos,LAO,0.0
+113,Latvia,LVA,0.0
+114,Lebanon,LBN,0.0
+115,Lesotho,LSO,0.0
+116,Liberia,LBR,0.0
+117,Libya,LBY,0.0
+118,Liechtenstein,LIE,0.0
+119,Lithuania,LTU,0.0
+120,Luxembourg,LUX,0.0
+121,Macau,MAC,0.0
+122,Macedonia,MKD,0.0
+123,Madagascar,MDG,0.0
+124,Malawi,MWI,0.0
+125,Malaysia,MYS,1.0
+126,Maldives,MDV,0.0
+127,Mali,MLI,0.0
+128,Malta,MLT,0.0
+129,Marshall Islands,MHL,0.0
+130,Mauritania,MRT,0.0
+131,Mauritius,MUS,0.0
+132,Mexico,MEX,11.0
+133,"Micronesia, Federated States of",FSM,0.0
+134,Moldova,MDA,0.0
+135,Monaco,MCO,0.0
+136,Mongolia,MNG,0.0
+137,Montenegro,MNE,0.0
+138,Morocco,MAR,0.0
+139,Mozambique,MOZ,0.0
+140,Namibia,NAM,0.0
+141,Nepal,NPL,0.0
+142,Netherlands,NLD,29.0
+143,New Caledonia,NCL,0.0
+144,New Zealand,NZL,0.0
+145,Nicaragua,NIC,0.0
+146,Nigeria,NGA,0.0
+147,Niger,NER,0.0
+148,Niue,NIU,0.0
+149,Northern Mariana Islands,MNP,0.0
+150,Norway,NOR,7.0
+151,Oman,OMN,1.0
+152,Pakistan,PAK,1.0
+153,Palau,PLW,0.0
+154,Panama,PAN,0.0
+155,Papua New Guinea,PNG,0.0
+156,Paraguay,PRY,0.0
+157,Peru,PER,0.0
+158,Philippines,PHL,13.0
+159,Poland,POL,1.0
+160,Portugal,PRT,0.0
+161,Puerto Rico,PRI,0.0
+162,Qatar,QAT,0.0
+163,Romania,ROU,1.0
+164,Russia,RUS,9.0
+165,Rwanda,RWA,0.0
+166,Saint Kitts and Nevis,KNA,0.0
+167,Saint Lucia,LCA,0.0
+168,Saint Martin,MAF,0.0
+169,Saint Pierre and Miquelon,SPM,0.0
+170,Saint Vincent and the Grenadines,VCT,0.0
+171,Samoa,WSM,0.0
+172,San Marino,SMR,0.0
+173,Sao Tome and Principe,STP,0.0
+174,Saudi Arabia,SAU,0.0
+175,Senegal,SEN,0.0
+176,Serbia,SRB,0.0
+177,Seychelles,SYC,6.0
+178,Sierra Leone,SLE,0.0
+179,Singapore,SGP,0.0
+180,Sint Maarten,SXM,0.0
+181,Slovakia,SVK,0.0
+182,Slovenia,SVN,0.0
+183,Solomon Islands,SLB,0.0
+184,Somalia,SOM,0.0
+185,South Africa,ZAF,1.0
+186,South Sudan,SSD,0.0
+187,Spain,ESP,5.0
+188,Sri Lanka,LKA,0.0
+189,Sudan,SDN,0.0
+190,Suriname,SUR,0.0
+191,Swaziland,SWZ,0.0
+192,Sweden,SWE,9.0
+193,Switzerland,CHE,0.0
+194,Syria,SYR,0.0
+195,Taiwan,TWN,3.0
+196,Tajikistan,TJK,0.0
+197,Tanzania,TZA,0.0
+198,Thailand,THA,1.0
+199,Timor-Leste,TLS,0.0
+200,Togo,TGO,0.0
+201,Tonga,TON,0.0
+202,Trinidad and Tobago,TTO,0.0
+203,Tunisia,TUN,0.0
+204,Turkey,TUR,0.0
+205,Turkmenistan,TKM,0.0
+206,Tuvalu,TUV,0.0
+207,Uganda,UGA,0.0
+208,Ukraine,UKR,0.0
+209,United Arab Emirates,ARE,1.0
+210,United Kingdom,GBR,24.0
+211,United States,USA,1186.0
+212,Uruguay,URY,0.0
+213,Uzbekistan,UZB,0.0
+214,Vanuatu,VUT,0.0
+215,Venezuela,VEN,0.0
+216,Vietnam,VNM,2.0
+217,Virgin Islands,VGB,0.0
+218,West Bank,WBG,0.0
+219,Yemen,YEM,0.0
+220,Zambia,ZMB,0.0
+221,Zimbabwe,ZWE,0.0
