@@ -9,8 +9,8 @@ py.offline.init_notebook_mode(connected=True)
 # 'error_bad_lines=False' drops rows with a different number of entries than expected
 # Prints error for each 'bad_line' ommited
 
-Data_Frame_EventA = pd.read_csv('https://github.com/RedRocksCommunityCollege/Clair-Global-Collab/blob/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
-df_Choropleth = pd.read_csv('https://github.com/RedRocksCommunityCollege/Clair-Global-Collab/blob/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
+Data_Frame_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+df_Choropleth = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
 # Create Data Frame 'Time_Country', drop nan values, drop extra rows not applicable
 df_Time_Country = Data_Frame_EventA[['srccountry']]
@@ -47,7 +47,7 @@ df_Choropleth
 
 
 # Write data frame to file location below
-df_Choropleth.to_csv('C:/Coding/Clair-Global-Collab/Data/Choropleth.csv')
+#df_Choropleth.to_csv('C:/Coding/Clair-Global-Collab/Data/Choropleth.csv')
 
 # Encode data into choropleth
 data = [ dict(
