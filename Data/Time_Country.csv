@@ -211,7 +211,7 @@
 209,144303,United States,0,USA
 210,144303,China,4,CHN
 211,144303,Europe,8,
-212,144312,Russian Federation,13,
+212,144312,Russia,13,RUS
 213,144313,Reserved,1,
 214,144241,Reserved,1,
 215,144246,United States,0,USA
@@ -255,7 +255,7 @@
 253,144351,United States,0,USA
 254,144354,Reserved,1,
 255,144356,Europe,8,
-256,144316,Russian Federation,13,
+256,144316,Russia,13,RUS
 257,144318,China,4,CHN
 258,144318,China,4,CHN
 259,144413,Vietnam,14,VNM
@@ -274,7 +274,7 @@
 272,144525,United States,0,USA
 273,144538,Brazil,16,BRA
 274,144540,Reserved,1,
-275,144504,Russian Federation,13,
+275,144504,Russia,13,RUS
 276,144505,United Kingdom,2,GBR
 277,144505,Japan,3,JPN
 278,144453,Reserved,1,
@@ -393,7 +393,7 @@
 391,144820,Europe,8,
 392,144821,United States,0,USA
 393,144821,China,4,CHN
-394,144858,Russian Federation,13,
+394,144858,Russia,13,RUS
 395,144900,Japan,3,JPN
 396,144903,Argentina,20,ARG
 397,144931,Seychelles,21,SYC
@@ -1499,7 +1499,7 @@
 1500,152455,United States,0,USA
 1501,152534,United States,0,USA
 1502,152534,China,4,CHN
-1503,152543,Russian Federation,13,
+1503,152543,Russia,13,RUS
 1504,152509,Netherlands,7,NLD
 1505,152529,Croatia,18,HRV
 1506,152724,United States,0,USA
@@ -1530,7 +1530,7 @@
 1531,152729,Greece,23,GRC
 1532,152732,Japan,3,JPN
 1533,152613,United Kingdom,2,GBR
-1534,152702,Russian Federation,13,
+1534,152702,Russia,13,RUS
 1535,152559,Indonesia,22,IDN
 1536,152823,United States,0,USA
 1537,152823,United States,0,USA
@@ -1557,7 +1557,7 @@
 1558,152811,United States,0,USA
 1559,152813,Japan,3,JPN
 1560,152904,Japan,3,JPN
-1561,152905,Russian Federation,13,
+1561,152905,Russia,13,RUS
 1562,152757,Philippines,19,PHL
 1563,152817,Reserved,1,
 1564,152745,Bulgaria,36,BGR
@@ -1584,7 +1584,7 @@
 1585,152921,United States,0,USA
 1586,152922,Europe,8,
 1587,152923,United States,0,USA
-1588,153007,Russian Federation,13,
+1588,153007,Russia,13,RUS
 1589,152944,Europe,8,
 1590,152948,Europe,8,
 1591,153012,Reserved,1,
@@ -1986,7 +1986,7 @@
 1988,154727,Reserved,1,
 1989,154729,Reserved,1,
 1990,154737,United States,0,USA
-1991,154742,Russian Federation,13,
+1991,154742,Russia,13,RUS
 1992,154743,Reserved,1,
 1993,154746,Japan,3,JPN
 1994,154748,Europe,8,
