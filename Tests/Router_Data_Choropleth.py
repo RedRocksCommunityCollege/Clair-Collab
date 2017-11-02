@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly as py
+import numpy as np
 from plotly.graph_objs import Scatter, Layout
 py.offline.init_notebook_mode(connected=True)
 
@@ -7,8 +8,9 @@ py.offline.init_notebook_mode(connected=True)
 # nrows = number of rows to read in
 # 'error_bad_lines=False' drops rows with a different number of entries than expected
 # Prints error for each 'bad_line' ommited
-Data_Frame_EventA = pd.read_csv('C:\Coding\Clair-Global-Collab\Data\secure-devices.csv', nrows = 2390 , error_bad_lines=False)
-df_Choropleth = pd.read_csv('/Coding/Clair-Global-Collab/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
+
+Data_Frame_EventA = pd.read_csv('https://github.com/RedRocksCommunityCollege/Clair-Global-Collab/blob/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+df_Choropleth = pd.read_csv('https://github.com/RedRocksCommunityCollege/Clair-Global-Collab/blob/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
 # Create Data Frame 'Time_Country', drop nan values, drop extra rows not applicable
 df_Time_Country = Data_Frame_EventA[['srccountry']]
@@ -32,8 +34,14 @@ df_Choropleth['Count'] = df_Choropleth['COUNTRY'].map(Country_Counts)
 # Make all 'NaN' values (no occurences) zero
 df_Choropleth['Count'] = df_Choropleth['Count'].fillna(value=0)
 
+# Rescale data for the color map
+df_Choropleth['Log Count'] = np.log(df_Choropleth['Count'] + 1)
+
+# Rescale data again for the color map
+df_Choropleth['Log Log Count'] = np.log(np.log(df_Choropleth['Count'] + 1) + 1)
+
 # Rename columns
-df_Choropleth.columns = ['Country', 'Code', 'Count']
+df_Choropleth.columns = ['Country', 'Code', 'Count', 'Log Count','Log Log Count']
 
 df_Choropleth
 
@@ -45,12 +53,12 @@ df_Choropleth.to_csv('C:/Coding/Clair-Global-Collab/Data/Choropleth.csv')
 data = [ dict(
         type = 'choropleth',
         locations = df_Choropleth['Code'],
-        z = df_Choropleth['Count'],
+        z = df_Choropleth['Log Log Count'],
         text = df_Choropleth['Country'],
-        colorscale = [[0,"rgb(5, 10, 172)"],[0.1,"rgb(40, 60, 190)"],[0.4,"rgb(70, 100, 245)"],\
-            [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[1,"rgb(220, 220, 220)"]],
+        colorscale = [[0,"rgb(5, 10, 172)"],[0.35,"rgb(40, 60, 190)"],[0.5,"rgb(70, 100, 245)"],\
+                    [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[1,"rgb(220, 220, 220)"]],
         autocolorscale = False,
-        reversescale = False,
+        reversescale = True,
         marker = dict(
             line = dict (
                 color = 'rgb(180,180,180)',
@@ -63,7 +71,7 @@ layout = dict(
     title = 'Countries Represented',
     geo = dict(
         showframe = False,
-        showcoastlines = False,
+        showcoastlines = True,
         projection = dict(
             type = 'Mercator'
                 )
