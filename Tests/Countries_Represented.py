@@ -9,11 +9,11 @@ py.offline.init_notebook_mode(connected=True)
 # 'error_bad_lines=False' drops rows with a different number of entries than expected
 # Prints error for each 'bad_line' ommited
 
-Data_Frame_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+df_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
 df_Choropleth = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
 # Create Data Frame 'Time_Country', drop nan values, drop extra rows not applicable
-df_Time_Country = Data_Frame_EventA[['srccountry']]
+df_Time_Country = df_EventA[['srccountry']]
 df_Time_Country = df_Time_Country.dropna(axis=0)
 df_Time_Country = df_Time_Country.dropna(axis=1)
 df_Time_Country = df_Time_Country[:1996]
@@ -34,17 +34,8 @@ df_Choropleth['Count'] = df_Choropleth['COUNTRY'].map(Country_Counts)
 # Make all 'NaN' values (no occurences) zero
 df_Choropleth['Count'] = df_Choropleth['Count'].fillna(value=0)
 
-# Rescale data for the color map
-df_Choropleth['Log Count'] = np.log(df_Choropleth['Count'] + 1)
-
-# Rescale data again for the color map
-df_Choropleth['Log Log Count'] = np.log(np.log(df_Choropleth['Count'] + 1) + 1)
-
 # Rename columns
-df_Choropleth.columns = ['Country', 'Code', 'Count', 'Log Count','Log Log Count']
-
-df_Choropleth
-
+df_Choropleth.columns = ['Country', 'Code', 'Count']
 
 # Write data frame to file location below
 #df_Choropleth.to_csv('C:/Coding/Clair-Global-Collab/Data/Choropleth.csv')
@@ -53,9 +44,9 @@ df_Choropleth
 data = [ dict(
         type = 'choropleth',
         locations = df_Choropleth['Code'],
-        z = df_Choropleth['Log Log Count'],
+        z = np.log(np.log(df_Choropleth['Count']+1)+1),# Compress values into color range
         text = df_Choropleth['Country'],
-        colorscale = [[0,"rgb(5, 10, 172)"],[0.35,"rgb(40, 60, 190)"],[0.5,"rgb(70, 100, 245)"],\
+        colorscale = [[0,"rgb(5, 10, 172)"],[.35,"rgb(40, 60, 190)"],[0.5,"rgb(70, 100, 245)"],\
                     [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[1,"rgb(220, 220, 220)"]],
         autocolorscale = False,
         reversescale = True,
