@@ -10,7 +10,7 @@ py.offline.init_notebook_mode(connected=True)
 # Prints error for each 'bad_line' ommited
 
 df_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
-df_Choropleth = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
+df_GDP = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
 # Create Data Frame 'Time_Country', drop nan values, drop extra rows not applicable
 df_Time_Country = df_EventA[['srccountry']]
@@ -23,7 +23,7 @@ df_Time_Country = df_Time_Country[:1996]
 df_Time_Country['srccountry'] = df_Time_Country['srccountry'].str.replace("Russian Federation","Russia").astype(str)
 
 # Drop 'GDP' column
-df_Choropleth = df_Choropleth.drop(['GDP (BILLIONS)'],axis=1)
+df_Choropleth = df_GDP.drop(['GDP (BILLIONS)'],axis=1)
 
 # Count occurences of each country 'pinged' at event
 Country_Counts = df_Time_Country['srccountry'].value_counts()
@@ -38,7 +38,7 @@ df_Choropleth['Count'] = df_Choropleth['Count'].fillna(value=0)
 df_Choropleth.columns = ['Country', 'Code', 'Count']
 
 # Write data frame to file location below
-#df_Choropleth.to_csv('C:/Coding/Clair-Global-Collab/Data/Choropleth.csv')
+df_Choropleth.to_csv('C:/Coding/Clair-Global-Collab/Data/Countries_Represented.csv')
 
 # Encode data into choropleth
 data = [ dict(
