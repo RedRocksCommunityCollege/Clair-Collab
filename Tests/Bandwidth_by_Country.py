@@ -1,6 +1,8 @@
 import pandas as pd
 
-df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+
+
+df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 1999 , error_bad_lines=False)
 
 df_countries_represented = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/Countries_Represented.csv',error_bad_lines=False)
 
@@ -8,7 +10,24 @@ code_dict = dict(zip(df_countries_represented.Country, df_countries_represented.
 
 df_countries_bandwidth = pd.DataFrame({'Country': df_eventa['srccountry'], 'Code': df_eventa['srccountry'].map(code_dict), 'Sent Byte': df_eventa['sentbyte'], 'Rcvd Byte': df_eventa['rcvdbyte'], 'Total Byte': (df_eventa['sentbyte'] + df_eventa['rcvdbyte'])})
 
+for item in pd.unique(df_countries_bandwidth['Country']):
+    i = 0
+    Rbyte = 0
+    Sbyte = 0
+    while i < np.shape(df_countries_bandwidth)[0]:
+        if df_countries_bandwidth['Country'][i] == item:
+            Rbyte = Rbyte + int(df_countries_bandwidth['Rcvd Byte'][i])
+            Sbyte = Sbyte + int(df_countries_bandwidth['Sent Byte'][i])
+        else:
+            pass
+        i  = i + 1
 
+
+country_str = str(df_countries_bandwidth['Country'].unique)
+
+df_countries_bandwidth.groupby('Country')['Rcvd Byte'].sum()['United States']
+
+df_countries_bandwidth.loc[df_countries_bandwidth['Country'] == 'United States', 'Rcvd Byte'].sum()
 
 df_countries_bandwidth
 
