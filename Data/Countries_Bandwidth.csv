@@ -1,0 +1,39 @@
+,level_0,index,Country,Code,Rcvd Byte,Sent Byte,Total Byte
+0,0,0,United States,USA,91709.0,2856.0,94565.0
+1,1,1,United Kingdom,GBR,0.0,0.0,0.0
+2,2,2,Japan,JPN,64.0,0.0,64.0
+3,3,3,China,CHN,0.0,0.0,0.0
+4,4,4,Mexico,MEX,128.0,0.0,128.0
+5,5,5,India,IND,0.0,0.0,0.0
+6,6,6,Netherlands,NLD,624.0,0.0,624.0
+7,7,7,Germany,DEU,444.0,0.0,444.0
+8,8,8,United Arab Emirates,ARE,80.0,0.0,80.0
+9,9,9,Colombia,COL,288.0,0.0,288.0
+10,10,10,Sweden,SWE,0.0,0.0,0.0
+11,11,11,Vietnam,VNM,0.0,0.0,0.0
+12,12,12,Spain,ESP,128.0,0.0,128.0
+13,13,13,Brazil,BRA,64.0,0.0,64.0
+14,14,14,Norway,NOR,320.0,0.0,320.0
+15,15,15,Croatia,HRV,0.0,0.0,0.0
+16,16,16,Philippines,PHL,480.0,0.0,480.0
+17,17,17,Argentina,ARG,0.0,0.0,0.0
+18,18,18,Seychelles,SYC,0.0,0.0,0.0
+19,19,19,Indonesia,IDN,192.0,0.0,192.0
+20,20,20,Greece,GRC,240.0,0.0,240.0
+21,21,21,Canada,CAN,0.0,0.0,0.0
+22,22,22,Jordan,JOR,0.0,0.0,0.0
+23,23,23,Hong Kong,HKG,0.0,0.0,0.0
+24,24,24,Taiwan,TWN,0.0,0.0,0.0
+25,25,25,Oman,OMN,0.0,0.0,0.0
+26,26,26,Israel,ISR,80.0,0.0,80.0
+27,27,27,France,FRA,124.0,0.0,124.0
+28,28,28,Chile,CHL,0.0,0.0,0.0
+29,29,29,Czech Republic,CZE,36.0,0.0,36.0
+30,30,30,Italy,ITA,0.0,0.0,0.0
+31,31,31,South Africa,ZAF,64.0,0.0,64.0
+32,32,32,Malaysia,MYS,64.0,0.0,64.0
+33,33,33,Bulgaria,BGR,0.0,0.0,0.0
+34,34,34,Poland,POL,0.0,0.0,0.0
+35,35,35,Romania,ROU,0.0,0.0,0.0
+36,36,36,Pakistan,PAK,0.0,0.0,0.0
+37,37,37,Thailand,THA,0.0,0.0,0.0
