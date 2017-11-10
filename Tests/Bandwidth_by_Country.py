@@ -1,5 +1,8 @@
 import pandas as pd
-
+import plotly as py
+import numpy as np
+from plotly.graph_objs import Scatter, Layout
+py.offline.init_notebook_mode(connected=True)
 
 
 df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 1999 , error_bad_lines=False)
@@ -17,6 +20,9 @@ df_countries_bandwidth = df_countries_bandwidth.groupby(['Country', 'Code'], sor
 
 # Realign column headers after summation
 df_countries_bandwidth = df_countries_bandwidth.reset_index()
+
+# Write data frame to file location below
+df_countries_bandwidth.to_csv('C:/Coding/Clair-Global-Collab/Data/Countries_Bandwidth.csv')
 
 # Map data to choropleth
 data = [ dict(
