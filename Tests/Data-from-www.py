@@ -1,67 +1,45 @@
-
 import urllib.request
 import urllib.parse
 import re
-import numpy as np
 
+'''This code explores using the urllib and re modules for webscraping data.
 
-#Used for pulling paragraph data from the web using POST
+In this case, pulling the paragraph data from pythonprogramming.net using the POST method
 
+This utility could find use in this project in the future'''
+
+# URL that we are scraping for data
 url = 'http://pythonprogramming.net'
-#URL that we are scraping for data
+
+# Navigate to specific area within pythonprogramming.net
 values = {'s':'basic','submit':'Search'}
-#this is a POST. A POST is a more specific search,
-#in this case: http://pythonprgramming.net/?s=basic&submit=Search
-#We also could have used a GET request
-#by making line 7 "url = 'http://pythonprogramming.net/?s=basic&submit=Search'"
-#and eliminating line 9. This would be less "correct."
+# This is a POST. A POST is a more specific search,
+# in this case: http://pythonprgramming.net/?s=basic&submit=Search
+# We also could have used a GET request
+# by making line 12 "url = 'http://pythonprogramming.net/?s=basic&submit=Search'"
+# and eliminating line 15, but this would be a less "correct" method.
+
+# Encode the values to complete the URL
 data = urllib.parse.urlencode(values)
-#This encodes the values to complete the GET format url
-#in other words:
-#URL + encoded values = http://pythonprgramming.net/?s=basic&submit=Search
+# in other words:
+# original URL + encoded values = http://pythonprgramming.net/?s=basic&submit=Search
+
+# Specify type of encoding
 data = data.encode('utf-8')
-#a type of encoding (puts data in bytes)
+
+# Request URL and data we want to pass
 req = urllib.request.Request(url, data)
-#request URL and data we want to pass
+
+# Visits URL
 resp = urllib.request.urlopen(req)
-#visiting URL
+
+# Read data from URL
 respData = resp.read()
-#reads data from URL
 
+# Find the paragraph data in the HTML
 paragraphs = re.findall(r'<p>(.*?)</p>',str(respData))
-#finds the paragraph data in the HTML
-#<p>paragraphs in HTML live here</p>
+# <p>paragraphs in HTML live here</p>
 
+#Print everything between the <p>'s and </p>'s
 for eachP in paragraphs:
     print(eachP)
-#prints everything between the <p>'s and </p>'s
-
-
-#Used for pulling paragraph data from the web using GET
-
-url = urllib.request.urlopen('http://www.rrcc.edu/idea-institute')
-#opens the source code for the selected URL
-
-HTML = url.read()
-#print(HTML)
-
-paragraphs = re.findall(r'<p>(.*?)</p>',str(HTML))
-#finds the paragraph data in the HTML
-#<p>paragraphs in HTML live here</p>
-
-#This script still needs a way to remove the data surrounded by <a and </a>
-
-#Below is one possible method
-'''
-Non = re.findall(r'<a href=(.*?)</a>',str(HTML))
-
-print(Non)
-np.shape(Non)
-print(paragraphs)
-np.shape(paragraphs)
-paragraphs[0]
-'''
-
-for eachP in paragraphs:
-    print(eachP)
-#prints everything between the <p>'s and </p>'s
