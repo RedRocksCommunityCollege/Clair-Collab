@@ -1,15 +1,15 @@
-'''Pandas is ideal for mathing .csv files. This code pulls a few columns from the REC2009 Data
-(see Data/Test_Data/RECS2009) and makes comparisons on household education level and the number
-of gaming consoles in the household. This will be useful for data mining from csv files.'''
+'''The Pandas module is ideal for cleaning, parsing, and "mathing" data. In this case, .csv files. This code pulls a few columns from the RECS 2009 (Residential Energy Consumption Survey-2009) data (see https://www.eia.gov/consumption/residential/data/2009/ for more info.)
+
+This code, as an exercise in using Pandas and reading comma seperated data, seeks to correlate household education level and the number
+of gaming consoles in the household.
+
+This example may be useful for data mining from csv files in the future.'''
 
 import numpy as np
 import pandas as pd
 
-# Create a data frame by reading .csv in, using pandas module
-'''Adam's filepath'''
-#df = pd.read_csv("/home/adam/GitHub/RedRocksCommunityCollege/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv")
-'''Cory's filepath'''
-df = pd.read_csv("/Coding/RRCC DataLab/Clair-Global-Collab/Data/Test_Data/RECS2009/recs2009_public.csv")
+# Read in data from github as a csv
+df = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/Test_Data/RECS2009/recs2009_public.csv', error_bad_lines=False)
 
 # Define variables as pandas data frames that pull metrics from the RECS2009 csv
 TOTALRooms = df.TOTROOMS
@@ -21,7 +21,7 @@ TVNum = df.TVCOLOR
 NumHouseMem = df.NHSLDMEM
 Education = df.EDUCATION
 
-# Average values from all datapoints in a metric
+# Average values for each metric
 NumHouseMem.mean()
 Education.mean()
 TVNum.mean()
@@ -44,7 +44,7 @@ TOTALRooms.mean()
 Houses = np.array([[0,0,0,0,0]]) # Make an empty array. We need [0,0,0,0] for the correct shape.
 GamerHouses = np.array([[0,0,0,0,0]])
 NoGameHouses = np.array([[0,0,0,0,0]])
-# Collect up all the series with rooms as the first element,main TV/console as the second, second TV/console-3rd, third TV/console-4th, and Education level-5th.
+# Collect all the series with rooms as the first element,main TV/console as the second, second TV/console-3rd, third TV/console-4th, and Education level-5th.
 for i in range(0, TOTALRooms.count()):
     House = np.array([[TOTALRooms[i],Game1[i],Game2[i],Game3[i],Education[i]]]) # Make each of the tuples. This is how we would add more thing that we would like to study.
     Houses =  np.append(Houses, House, axis = 0) # Add them to the new array.
