@@ -5,9 +5,9 @@ from plotly.graph_objs import Scatter, Layout
 py.offline.init_notebook_mode(connected=True)
 
 
-df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 1999 , error_bad_lines=False)
+df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure-devices.csv', nrows = 1999 , error_bad_lines=False)
 
-df_countries_represented = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/Countries_Represented.csv',error_bad_lines=False)
+df_countries_represented = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/Countries_Represented.csv',error_bad_lines=False)
 
 # Create dictionary linking country names to their country code
 code_dict = dict(zip(df_countries_represented.Country, df_countries_represented.Code))
@@ -22,7 +22,7 @@ df_countries_bandwidth = df_countries_bandwidth.groupby(['Country', 'Code'], sor
 df_countries_bandwidth = df_countries_bandwidth.reset_index()
 
 # Write data frame to file location below
-df_countries_bandwidth.to_csv('C:/Coding/Clair-Global-Collab/Data/Countries_Bandwidth.csv')
+df_countries_bandwidth.to_csv('C:/Coding/Clair-Collab/Data/Countries_Bandwidth.csv')
 
 # Map data to choropleth
 data = [ dict(
@@ -43,7 +43,7 @@ data = [ dict(
 
 # Set layout of choropleth
 layout = dict(
-    title = 'Bandwidth by Country',
+    title = 'Relative Bandwidth by Country',
     geo = dict(
         showframe = False,
         showcoastlines = True,
@@ -55,4 +55,4 @@ layout = dict(
 
 fig = dict( data=data, layout=layout )
 
-py.offline.iplot( fig, validate=False, filename='Clair-event-world-map' )
+py.offline.plot( fig, validate=False, filename='Bandwidth_by_Country_world_map' )
