@@ -5,12 +5,11 @@ from plotly.graph_objs import Scatter, Layout
 py.offline.init_notebook_mode(connected=True)
 
 # Read in 'EventA' and 'world gdp' pdf.
-# nrows = number of rows to read in
+# nrows = number of rows to read in (2390 are rows from "EventA")
 # 'error_bad_lines=False' drops rows with a different number of entries than expected
 # Prints error for each 'bad_line' ommited
-
-df_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
-df_GDP = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Global-Collab/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
+df_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+df_GDP = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
 # Create Data Frame 'Time_Country', drop nan values, drop extra rows not applicable
 df_Time_Country = df_EventA[['srccountry']]
@@ -18,7 +17,7 @@ df_Time_Country = df_Time_Country.dropna(axis=0)
 df_Time_Country = df_Time_Country.dropna(axis=1)
 df_Time_Country = df_Time_Country[:1996]
 
-# Replace 'Russian Federation' with 'Russia' to match 'srccountry' value with '2014_world_gdp_with_codes.csv' value
+# Replace 'Russian Federation' with 'Russia' to match 'srccountry' value with country codes from '2014_world_gdp_with_codes.csv' value
 # NEED TO LOOK FOR OTHER MISMATCHES LIKE THIS ONE
 df_Time_Country['srccountry'] = df_Time_Country['srccountry'].str.replace("Russian Federation","Russia").astype(str)
 
@@ -38,7 +37,7 @@ df_Choropleth['Count'] = df_Choropleth['Count'].fillna(value=0)
 df_Choropleth.columns = ['Country', 'Code', 'Count']
 
 # Write data frame to file location below
-df_Choropleth.to_csv('C:/Coding/Clair-Global-Collab/Data/Countries_Represented.csv')
+df_Choropleth.to_csv('C:/Coding/Clair-Collab/Data/Countries_Represented.csv')
 
 # Encode data into choropleth
 data = [ dict(
@@ -59,7 +58,7 @@ data = [ dict(
 
 # Set layout of choropleth
 layout = dict(
-    title = 'Countries Represented',
+    title = 'Countries Represented by Attendees',
     geo = dict(
         showframe = False,
         showcoastlines = True,
@@ -71,4 +70,4 @@ layout = dict(
 
 fig = dict( data=data, layout=layout )
 
-py.offline.iplot( fig, validate=False, filename='Clair-event-world-map' )
+py.offline.plot( fig, validate=False, filename='Countries_Represented_world_map' )
