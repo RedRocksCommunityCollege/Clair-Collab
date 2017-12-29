@@ -8,7 +8,7 @@ py.offline.init_notebook_mode(connected=True)
 # nrows = number of rows to read in (2390 are rows from "EventA")
 # 'error_bad_lines=False' drops rows with a different number of entries than expected
 # Prints error for each 'bad_line' ommited
-df_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure-devices.csv', nrows = 2390 , error_bad_lines=False)
+df_EventA = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure_devices.csv', nrows = 2390 , error_bad_lines=False)
 df_GDP = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/2014_world_gdp_with_codes.csv',error_bad_lines=False)
 
 # Create Data Frame 'Time_Country', drop nan values, drop extra rows not applicable

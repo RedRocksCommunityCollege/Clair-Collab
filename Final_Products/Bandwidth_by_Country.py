@@ -5,7 +5,7 @@ from plotly.graph_objs import Scatter, Layout
 py.offline.init_notebook_mode(connected=True)
 
 
-df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure-devices.csv', nrows = 1999 , error_bad_lines=False)
+df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure_devices.csv', nrows = 1999 , error_bad_lines=False)
 
 df_countries_represented = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/Countries_Represented.csv',error_bad_lines=False)
 
