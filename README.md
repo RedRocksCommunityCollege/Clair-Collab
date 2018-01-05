@@ -57,7 +57,7 @@ The second describes relative bandwidth usage by country based on transaction qu
 The code that generates these visualizations was written to be a reusable utility. A user should be able to import any Fortigate router data of a similar format, isolate the lines they are interested in, and run the code to see visualizations of their event.
 
 ___
-#### 1. THE REPOSITORY
+#### 3. THE REPOSITORY
 
 _**All of the material in this repository is available for unrestricted use by Clair and any other party that wishes to use it constructively.**_  
 
