@@ -15,7 +15,6 @@ df_GDP = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege
 df_Time_Country = df_EventA[['srccountry']]
 df_Time_Country = df_Time_Country.dropna(axis=0)
 df_Time_Country = df_Time_Country.dropna(axis=1)
-df_Time_Country = df_Time_Country[:1996]
 
 # Replace 'Russian Federation' with 'Russia' to match 'srccountry' value with country codes from '2014_world_gdp_with_codes.csv' value
 # NEED TO LOOK FOR OTHER MISMATCHES LIKE THIS ONE

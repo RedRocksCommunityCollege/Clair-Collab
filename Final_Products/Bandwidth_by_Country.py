@@ -5,7 +5,7 @@ from plotly.graph_objs import Scatter, Layout
 py.offline.init_notebook_mode(connected=True)
 
 
-df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure_devices.csv', nrows = 1999 , error_bad_lines=False)
+df_eventa = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/secure_devices.csv', nrows = 2390 , error_bad_lines=False)
 
 df_countries_represented = pd.read_csv('https://raw.githubusercontent.com/RedRocksCommunityCollege/Clair-Collab/master/Data/Countries_Represented.csv',error_bad_lines=False)
 
@@ -13,7 +13,8 @@ df_countries_represented = pd.read_csv('https://raw.githubusercontent.com/RedRoc
 code_dict = dict(zip(df_countries_represented.Country, df_countries_represented.Code))
 
 # Create DataFrame
-df_countries_bandwidth = pd.DataFrame({'Country': df_eventa['srccountry'], 'Code': df_eventa['srccountry'].map(code_dict), 'Sent Byte': df_eventa['sentbyte'], 'Rcvd Byte': df_eventa['rcvdbyte'], 'Total Byte': (df_eventa['sentbyte'] + df_eventa['rcvdbyte'])})
+df_countries_bandwidth = pd.DataFrame({'Country': df_eventa['srccountry'], 'Code': df_eventa['srccountry'].map(code_dict), 'Sent Byte': pd.to_numeric(df_eventa['sentbyte'], errors='coerce'), 'Rcvd Byte': pd.to_numeric(df_eventa['rcvdbyte'], errors='coerce'), 'Total Byte': (pd.to_numeric(df_eventa['sentbyte'], errors='coerce') + pd.to_numeric(df_eventa['rcvdbyte'], errors='coerce'))})
+
 
 # Sum the bandwidth values for each country
 df_countries_bandwidth = df_countries_bandwidth.groupby(['Country', 'Code'], sort=False).sum()
