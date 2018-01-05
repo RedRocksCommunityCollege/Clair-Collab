@@ -1,2 +1,2 @@
 # Tools
-__A home for code that may have current or future utility in this project__
+A home for scripts that may have current or future utility in this project

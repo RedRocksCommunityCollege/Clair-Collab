@@ -1,6 +1,4 @@
-# Tests
-__A location for storing all test scripts.__
+# Future Development
+__A location for storing code for future use.__
 
-Be sure to include the script's intended function and whether it is currently running properly in a comment at the top of your code.
-
-Once the test code has evolved into a functional utility, that is no longer being modified, and is completely commented, relocate it to the Tools folder.
+The code here is primarily a starting point for future project development using machine learning and linear regression for event bandwidth requirement predictions.
